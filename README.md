@@ -1,2 +1,69 @@
-# DefWak
-BetaPack
+# Внимание:если вы установите эту утилиту, создатель не несет ответственности за ваши действия
+# RUS
+# DefSecBeta -это первый пак в котором пока что несколько программ
+ (Сырая В РАЗРАБОТКЕ)
+## на Termux 
+### Установка:
++ $ apt update && apt upgrade -y
++ $ pkg install git
++ $ pkg install python
++ $ pkg install colorama
++ $ pkg install wget
++ $ pip3 install wget
++ $ pkg install php
++ $ git clone https://github.com/defsec16/DefWak
++ $ cd DefWak 
++ $ chmod +x *
++ $ python3 ServerInstall.py
++ $ python DW.py
+
+### Если pip выдёт ошибку либо надо его установить или обновить (pip install --upgrade pip)
+
+### Если Linux 
+* apt-get install python3
+* apt-get install git
+* apt-get install colorama
+* apt-get install wget
+* pip3 install wget
+* git clone https://github.com/defsec16/DefWak
+* cd DefWak
+* chomd +x (всё)
+* bash install.sh
+* python3 ServerInstall.py
+* python3 DW.py
+
+## Возможно будут другие паки или дополнения
+
+# Attention:if you install this utility, the creator is not responsible for your actions
+# ENG
+# DefSecBeta -this is the first pack in which so far several programs
+
+## On Termux
+### Download:
++ $ apt update && apt upgrade -y
++ $ pkg install git
++ $ pkg install python
++ $ pkg install colorama
++ $ pkg install wget
++ $ pip3 install wget
++ $ pkg install php
++ $ git clone https://github.com/defsec16/DefWak
++ $ cd DefWak 
++ $ chmod +x *
++ $ python3 ServerInstall.py
++ $ python DW.py
+### If pip issues an error or you need to install or update it (pip install --upgrade pip)
+
+## On Linux
+### Download:
+* apt-get install python3
+* apt-get install git
+* apt-get install colorama
+* apt-get install wget
+* pip3 install wget
+* git clone https://github.com/defsec16/DefWak
+* cd DefWak
+* chomd +x (всё)
+* bash install.sh
+* python3 ServerInstall.py
+* python3 DW.py
