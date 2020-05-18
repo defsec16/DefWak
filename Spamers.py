@@ -1,5 +1,5 @@
 import os
-
+os.system("Clear")
 banner ='''\u001b[32m"
 		                                                                                             
 		 ad88888ba                                                                                   
