@@ -55,6 +55,7 @@ text ='''Что вам будет угодно?(what do you want?)
         [2]-D-ddos
         [3]-passgen
         [4]-recreator-phishing
+	[5]-backdoor[Скоро]
 
         [0]-Выход(exit)
         (select number)Выберите номер:
