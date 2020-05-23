@@ -81,6 +81,7 @@ def DefSec4():
   import os
   os.system("python recreator-phishing.py")
 def DefSec5():
+	import os, random
  	os.system("Clear")
 	ban = random.randit(0,2)
 	if ban == 0:
