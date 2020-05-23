@@ -1,6 +1,6 @@
 #code written and owned by DefSec16 tobish Alisher Zhussip
 import os, random
-os.system("clear")
+Clearing()
 ban = random.randint(0,2)
 if ban ==0:
   banner ='''
@@ -65,9 +65,10 @@ text =''' -{Main Manu}-
         '''
 print(text)
 a =int(input("DefWak~#:"))
-def Defsec0():
-  print('Прощайте!(Goodbye!)')
-  raise SystemExit  
+def Clearing():
+	print("Прощайте!(Goodbye!)")
+	os.system("Clear")
+ 
 def DefSec1():
   import os
   os.system('python Spamers.py')
@@ -82,7 +83,7 @@ def DefSec4():
   os.system("python recreator-phishing.py")
 def DefSec5():
 	import os, random
- 	os.system("Clear")
+ 	Clearing()
 	ban = random.randit(0,2)
 	if ban == 0:
 	  banner = '''
@@ -161,7 +162,7 @@ def DefSec5():
 	      print("Не найдено(Not found)")
 
 if a ==0:
-  Defsec0()
+  Clearing()
 elif a ==1:
   DefSec1()
 elif a ==2:
