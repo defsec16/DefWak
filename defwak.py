@@ -17,7 +17,7 @@ if ban ==0:
        '''
 
 elif ban ==2:
-  banner = '''
+  banner = ''' \u001b[32m"
                                                                                           
         88888888ba,                   ad88  I8,        8        ,8I            88         
         88      `"8b                 d8"    `8b       d8b       d8'            88         
@@ -71,7 +71,7 @@ def DefSec0():
 def DefSec1():
   	import os
   	os.system("Clear")
-	banner = '''"\u001b[32m"
+	banner = '''
 		 _____                                     
 		/  ___|                                    
 		\ `--. _ __   __ _ _ __ ___   ___ _ __ ___ 
