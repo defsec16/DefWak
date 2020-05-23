@@ -1,17 +1,14 @@
 import os
 os.system("Clear")
 banner ='''\u001b[32m"
-		                                                                                             
-		 ad88888ba                                                                                   
-		d8"     "8b                                                                                  
-		Y8,                                                                                          
-		`Y8aaaaa,    8b,dPPYba,   ,adPPYYba,  88,dPYba,,adPYba,    ,adPPYba,  8b,dPPYba,  ,adPPYba,  
-		  `"""""8b,  88P'    "8a  ""     `Y8  88P'   "88"    "8a  a8P_____88  88P'   "Y8  I8[    ""  
-		        `8b  88       d8  ,adPPPPP88  88      88      88  8PP"""""""  88           `"Y8ba,   
-		Y8a     a8P  88b,   ,a8"  88,    ,88  88      88      88  "8b,   ,aa  88          aa    ]8I  
-		 "Y88888P"   88`YbbdP"'   `"8bbdP"Y8  88      88      88   `"Ybbd8"'  88          `"YbbdP"'  
-		             88                                                                              
-		             88                                                                              
+	 _____                                     
+	/  ___|                                    
+	\ `--. _ __   __ _ _ __ ___   ___ _ __ ___ 
+	 `--. \ '_ \ / _` | '_ ` _ \ / _ \ '__/ __|
+	/\__/ / |_) | (_| | | | | | |  __/ |  \__ \
+	\____/| .__/ \__,_|_| |_| |_|\___|_|  |___/
+	      | |                                  
+	      |_|                                                                                                          
 		             '''
 print(banner)             
 text = '''	  -{Menu}-
