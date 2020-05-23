@@ -122,7 +122,6 @@ def DefSec1():
 	else:
 		print('Ошибка:не найдено(Error:not found)')
 def DefSec2():
-  	import os
   	os.system('clear')
 
 	bannerD = '''
@@ -172,7 +171,6 @@ def DefSec2():
 	else:
 		print('Ошибка:не найдено(Error:not found)')
 def DefSec3():
-  	import os
   	os.system('clear')
 	bannerP = '''
 			______             _____            
