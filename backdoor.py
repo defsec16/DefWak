@@ -30,14 +30,14 @@ else:
 		      /N   .mo  sh`       -m+   od`  /N       
 		      /N    `dsom`         .m+ +m.   /N       
 		      :MyyyyyhMMdyyyyyyyyyyydMhMdyyyydm       
-                 :Nhh`           :My              
-                -N: sd`         -N/hy             
-               .m+   om`       .m+  hy`           
-              `do     +m.     `do    yh`          
-              hy       /m.    dy      sh`         
-             yh         /N:  hy        om`        
-			      om`          -N/yh`         om.       
-		       /m.            -md`           +m.      
+		       	    :Nhh`           :My              
+			   -N:sd`          -N/hy             
+		          .m+   om`       .m+  hy`           
+		         `do     +m.     `do    yh`          
+		         hy       /m.    dy      sh`         
+		        yh         /N:  hy        om`        
+		       om`          -N/yh`         om.       
+		      /m.            -md`           +m.      
 		      ''`                             ::           
 							  '''
 	    print(banner)
@@ -54,7 +54,7 @@ else:
 	    back = int(input("Backdoor~#"))
 	    def Backdoor0():
 	      print("Прощайте!(Goodbyr!)")
-	      reise SystemExit
+	      raise SystemExit
 	    def Backdoor1():
 	      print("Скоро(soon)")
 	    def Backdoor2():
