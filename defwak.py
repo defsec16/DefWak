@@ -71,7 +71,7 @@ def DefSec0():
 def DefSec1():
   	import os
   	os.system("Clear")
-	banner = '''
+	bannerS = '''
 		 _____                                     
 		/  ___|                                    
 		\ `--. _ __   __ _ _ __ ___   ___ _ __ ___ 
@@ -81,7 +81,7 @@ def DefSec1():
 		      | |                                  
 		      |_|                                                                                                          
 				     '''
-	print(banner)             
+	print(bannerS)             
 	text = '''	  
 		  -{Menu}-
 		 --{Меню}--
@@ -127,7 +127,7 @@ def DefSec2():
   	import os
   	os.system('clear')
 
-	banner = '''
+	bannerD = '''
 		88888888ba,              88888888ba,    88888888ba,      ,ad8888ba,     ad88888ba   
 		88      `"8b             88      `"8b   88      `"8b    d8"'    `"8b   d8"     "8b  
 		88        `8b            88        `8b  88        `8b  d8'        `8b  Y8,          
@@ -138,7 +138,7 @@ def DefSec2():
 		88888888Y"'              88888888Y"'    88888888Y"'      `"Y8888Y"'     "Y88888P"   
 												    '''
 
-	print(banner)
+	print(bannerD)
 	text = '''                
 			-{Menu}-
 		       --{Меню}--
@@ -176,7 +176,7 @@ def DefSec2():
 def DefSec3():
   	import os
   	os.system('clear')
-	banner = '''
+	bannerP = '''
 			______             _____            
 			| ___ \           |  __ \           
 			| |_/ /_ _ ___ ___| |  \/ ___ _ __  
@@ -185,7 +185,7 @@ def DefSec3():
 			\_|  \__,_|___/___/\____/\___|_| |_|
 
 							    '''
-	print(banner)
+	print(bannerP)
 
 	class List:
 
