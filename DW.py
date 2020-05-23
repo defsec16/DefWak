@@ -50,8 +50,8 @@ else:
 
 
 print(banner)
-text ='''  {Main Manu}
-          {Главное Меню}
+text =''' -{Main Manu}-
+         -{Главное Меню}-
       Что вам будет угодно?(what do you want?)
         [1]-DSpamers
         [2]-D-ddos
