@@ -45,7 +45,38 @@ elif ban == 1:
               --{Меню}--
              [1]-backdoor{server} (Создать)(Create)
              [2]-backdoor{client} (Создать)(Create)
-             [3]-применение(application)
+             [3]-Применение(application)
+             
+             [99]-Назад в главное меню(back to main menu)
+             [0]-Выход(Exit)
+             '''
+    print(text)
+    back = int(input("Backdoor~#"))
+    def Backdoor0():
+      print("Прощайте!(Goodbyr!)")
+      reise SystemExit
+    def Backdoor1():
+      print("Скоро(soon)")
+    def Backdoor2():
+      print("Скоро(soon)")
+    def Backdeoo3():
+      print("Скоро(soon)")
+    def Backdoor99():
+      import os
+      os.system("python DW.py")
+    if back == 0:
+      Backdoor0()
+    elif back == 99:
+      Backdoor99()
+    elif back ==1:
+      Backdoor1()
+    elif back ==2:
+      Backdoor2()
+    elif back ==3:
+      Backdoor3()
+    else:
+      print("Не найдено(Not found)")
+    
      
 
                                                                                                      
