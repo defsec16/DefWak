@@ -37,7 +37,7 @@ def DSV3():
 	os.system('python DSpamerV3open.py')
 def DS99():
 	import os 
-	os.system('python DW.py')
+	os.system('python defwak.py')
 def DS0():
 	print('Прощайте!(Goodbye!)')
 	raise SystemExit 
