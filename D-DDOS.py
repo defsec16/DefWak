@@ -34,7 +34,7 @@ def ddosv2():
 def ddosExit():
 	print('Прощайте!(Goodbye!)')
 	raise SystemExit
-def ddosExit0():
+def ddosExit99():
 	import os
 	os.system('python DW.py')
 
@@ -43,7 +43,7 @@ if d ==1:
 elif d ==2:
 	ddosv2()
 elif d ==99:
-	ddosExit0() 
+	ddosExit99() 
 elif d ==0:
 	ddosExit()
 else:
