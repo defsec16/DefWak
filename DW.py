@@ -50,7 +50,9 @@ else:
 
 
 print(banner)
-text ='''Что вам будет угодно?(what do you want?)
+text ='''  {Main Manu}
+          {Главное Меню}
+      Что вам будет угодно?(what do you want?)
         [1]-DSpamers
         [2]-D-ddos
         [3]-passgen
