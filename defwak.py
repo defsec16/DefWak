@@ -1,5 +1,5 @@
 #code written and owned by DefSec16 tobish Alisher Zhussip
-import os, random
+import os, random, colorama
 os.system("clear")
 ban = random.randint(0,2)
 if ban ==0:
@@ -71,7 +71,7 @@ def DefSec0():
 def DefSec1():
   	import os
   	os.system("Clear")
-	banner ="\u001b[32m" +'''
+	banner = ''' \u001b[32m"
 		 _____                                     
 		/  ___|                                    
 		\ `--. _ __   __ _ _ __ ___   ___ _ __ ___ 
