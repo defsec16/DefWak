@@ -69,7 +69,7 @@ def Clearing():
 	os.system("Clear")
 def DefSec0():
 	print("Прощайте!(Goodbye!)")
-	reise SystemExit
+	raise SystemExit
 def DefSec1():
   import os
   os.system('python Spamers.py')
