@@ -57,8 +57,7 @@ text ='''    -{Main Manu}-
         [1]-DSpamers
         [2]-D-ddos
         [3]-passgen
-        [4]-recreator-phishing
-	[5]-backdoor[Скоро]
+	[4]-backdoor[Скоро]
 
         [99]-Upgrade(Обновить)
 	[0]-Выход(exit)
@@ -80,9 +79,6 @@ def DefSec3():
   import os
   os.system('python passgen.py')
 def DefSec4():
-  import os
-  os.system("python recreator-phishing.py")
-def DefSec5():
 	os.system("python backdoor.py")
 
 
@@ -96,8 +92,6 @@ elif a ==3:
   DefSec3()
 elif a ==4:
   DefSec4()
-elif a ==5:
-  DefSec5()
 
 else:
   print('Ошибка:не найдено(Error:not found)')
