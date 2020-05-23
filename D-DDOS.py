@@ -14,12 +14,13 @@ banner = '''
 		                                                                                    '''
 
 print(banner)
-text = '''
-		[1]-DDOS (version 1)
-		[2]=DDOS (version 2)
+text = '''      -{Menu}-
+		-{Меню}-
+	[1]-DDOS (version 1)
+	[2]=DDOS (version 2)
 
-		[99]-назад в меню(back to main manu)
-		[0]-Выйти из программы(Exit the program)
+	[99]-назад в меню(back to main manu)
+	[0]-Выйти из программы(Exit the program)
 		'''
 print(text)
 d = int(input('(select number)Выберите номер:'))  
