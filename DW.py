@@ -51,7 +51,7 @@ else:
 
 
 print(banner)
-text ='''    -{Main Manu}-
+text ='''       -{Main Manu}-
          -{Главное Меню}-
       Что вам будет угодно?(what do you want?)
         [1]-DSpamers
