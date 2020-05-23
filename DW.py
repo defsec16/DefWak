@@ -84,7 +84,7 @@ def DefSec4():
   os.system("python recreator-phishing.py")
 def DefSec5():
 	os.system("python backdoor.py")
-def DefSec99():
+
 
 if a ==0:
   DefSec0()
@@ -98,7 +98,6 @@ elif a ==4:
   DefSec4()
 elif a ==5:
   DefSec5()
-elif a ==99:
-  DefSec99()
+
 else:
   print('Ошибка:не найдено(Error:not found)')
