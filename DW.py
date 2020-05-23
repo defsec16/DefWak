@@ -64,11 +64,12 @@ text =''' -{Main Manu}-
         (select number)Выберите номер:
         '''
 print(text)
-a =int(input("DefWak~#:"))
+a = int(input("DefWak~#:"))
 def Clearing():
-	print("Прощайте!(Goodbye!)")
 	os.system("Clear")
- 
+def DefSec0():
+	print("Прощайте!(Goodbye!)")
+	reise SystemExit
 def DefSec1():
   import os
   os.system('python Spamers.py')
@@ -162,7 +163,7 @@ def DefSec5():
 	      print("Не найдено(Not found)")
 
 if a ==0:
-  Clearing()
+  DefSec0()
 elif a ==1:
   DefSec1()
 elif a ==2:
