@@ -1,3 +1,4 @@
+#code written and owned by DefSec16 tobish Alisher Zhussip
 import os, random
 os.system("clear")
 ban = random.randint(0,2)
