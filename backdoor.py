@@ -1,6 +1,6 @@
 import os, random
 os.system("Clear")
-ban = random.randit(0,2)
+ban = random.randint(0,2)
 if ban == 0:
 	  banner = '''
 	    ______            _       _                   
