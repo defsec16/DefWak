@@ -51,7 +51,7 @@ text = ''' 	     -{Menu}-
      [0]-Выход(Exit)
      '''
 print(text)
-back = int(input("Backdoor~#"))
+back = int(input("Backdoor~#:"))
 def Backdoor0():
 	print("Прощайте!(Goodbyr!)")
 	raise SystemExit
