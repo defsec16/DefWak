@@ -1,6 +1,6 @@
 #code written and owned by DefSec16 tobish Alisher Zhussip
 import os, random
-Clearing()
+os.system("Clear")
 ban = random.randint(0,2)
 if ban ==0:
   banner ='''
@@ -65,8 +65,7 @@ text =''' -{Main Manu}-
         '''
 print(text)
 a = int(input("DefWak~#:"))
-def Clearing():
-	os.system("Clear")
+
 def DefSec0():
 	print("Прощайте!(Goodbye!)")
 	raise SystemExit
