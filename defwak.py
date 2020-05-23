@@ -69,7 +69,6 @@ def DefSec0():
 	print("Прощайте!(Goodbye!)")
 	raise SystemExit
 def DefSec1():
-  	import os
   	os.system("Clear")
 	bannerS = '''
 		 _____                                     
@@ -79,8 +78,7 @@ def DefSec1():
 		/\__/ / |_) | (_| | | | | | |  __/ |  \__ \
 		\____/| .__/ \__,_|_| |_| |_|\___|_|  |___/
 		      | |                                  
-		      |_|                                                                                                          
-				     '''
+		      |_|       	     '''
 	print(bannerS)             
 	text = '''	  
 		  -{Menu}-
