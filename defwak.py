@@ -70,7 +70,7 @@ def DefSec0():
 	raise SystemExit
 def DefSec1():
   	os.system("Clear")
-	bannerS = """ 
+	print(""" 
 	 _____                                     
 	/  ___|                                    
 	\ `--. _ __   __ _ _ __ ___   ___ _ __ ___ 
@@ -78,8 +78,8 @@ def DefSec1():
 	/\__/ / |_) | (_| | | | | | |  __/ |  \__ \
 	\____/| .__/ \__,_|_| |_| |_|\___|_|  |___/
 	      | |                                  
-	      |_|                                 """
-	print(bannerS)             
+	      |_|                                 """)
+	             
 	text = '''	  
 		  -{Menu}-
 		 --{Меню}--
