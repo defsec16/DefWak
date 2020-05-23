@@ -71,7 +71,7 @@ def DefSec0():
 def DefSec1():
   	import os
   	os.system("Clear")
-	bannerS ='''
+	bannerS = '''
 		 _____                                     
 		/  ___|                                    
 		\ `--. _ __   __ _ _ __ ___   ___ _ __ ___ 
