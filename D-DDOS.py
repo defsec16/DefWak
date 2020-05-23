@@ -23,7 +23,7 @@ text = '''      -{Menu}-
 	[0]-Выйти из программы(Exit the program)
 		'''
 print(text)
-d = int(input('(select number)Выберите номер:'))  
+d = int(input('D-ddos~#'))  
 
 def ddosv1():
 	import os
