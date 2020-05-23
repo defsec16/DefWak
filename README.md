@@ -8,7 +8,7 @@
 + $ apt update && apt upgrade -y
 + $ pkg install git
 + $ pkg install python
-+ $ pkg install colorama
++ $ pip install colorama
 + $ pkg install wget
 + $ pip3 install wget
 + $ pkg install php
@@ -46,7 +46,7 @@
 + $ apt update && apt upgrade -y
 + $ pkg install git
 + $ pkg install python
-+ $ pkg install colorama
++ $ pip install colorama
 + $ pkg install wget
 + $ pip3 install wget
 + $ pkg install php
