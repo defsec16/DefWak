@@ -15,7 +15,6 @@
 + $ git clone https://github.com/defsec16/DefWak
 + $ cd DefWak 
 + $ chmod +x *
-+ $ python3 ServerInstall.py
 + $ python DW.py
 
 ### Если pip выдёт ошибку либо надо его установить или обновить (pip install --upgrade pip)
@@ -30,7 +29,6 @@
 * cd DefWak
 * chomd +x (всё)
 * bash install.sh
-* python3 ServerInstall.py
 * python3 DW.py
 
 ## Возможно будут другие паки или дополнения
@@ -53,7 +51,6 @@
 + $ git clone https://github.com/defsec16/DefWak
 + $ cd DefWak 
 + $ chmod +x *
-+ $ python3 ServerInstall.py
 + $ python DW.py
 ### If pip issues an error or you need to install or update it (pip install --upgrade pip)
 
@@ -68,5 +65,4 @@
 * cd DefWak
 * chomd +x (всё)
 * bash install.sh
-* python3 ServerInstall.py
 * python3 DW.py
