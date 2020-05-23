@@ -58,8 +58,7 @@ text ='''    -{Main Manu}-
         [2]-D-ddos
         [3]-passgen
 	[4]-backdoor[Скоро]
-
-        [99]-Upgrade(Обновить)
+	
 	[0]-Выход(exit)
         (select number)Выберите номер:
         '''
