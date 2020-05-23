@@ -14,7 +14,7 @@ banner ='''\u001b[32m"
 		             88                                                                              
 		             '''
 print(banner)             
-text = '''-{Menu}-
+text = '''	  -{Menu}-
 	  -{Меню}-
       [1]-DSpamer(Version 1)
       [2]-DSpamer(Version 2)
