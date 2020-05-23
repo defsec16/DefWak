@@ -143,7 +143,7 @@ def DefSec4():
 		print("Скоро(soon)")
 	def Backdoor99():
 		import os
-		os.system("python DW.py")
+		os.system("python defwak.py")
 	if back == 0:
 		Backdoor0()
 	elif back == 99:
