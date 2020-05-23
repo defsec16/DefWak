@@ -36,7 +36,7 @@ def ddosExit():
 	raise SystemExit
 def ddosExit99():
 	import os
-	os.system('python DW.py')
+	os.system('python defwak.py')
 
 if d ==1:
 	ddosv1()
