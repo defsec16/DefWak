@@ -28,7 +28,6 @@
 * git clone https://github.com/defsec16/DefWak
 * cd DefWak
 * chomd +x (всё)
-* bash install.sh
 * python3 DW.py
 
 ## Возможно будут другие паки или дополнения
@@ -64,5 +63,4 @@
 * git clone https://github.com/defsec16/DefWak
 * cd DefWak
 * chomd +x (всё)
-* bash install.sh
 * python3 DW.py
