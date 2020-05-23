@@ -39,7 +39,13 @@ elif ban == 1:
                 om`          -N/yh`         om.       
                /m.            -md`           +m.      
               ''`                             ::           
- print(banner)                                                    '''
+                                                  '''
+    print(banner)
+    text = ''' -{Menu}-
+              --{Меню}--
+             [1]-backdoor{server} (Создать)(Create)
+             [2]-backdoor{client} (Создать)(Create)
+             [3]-применение(application)
      
 
                                                                                                      
