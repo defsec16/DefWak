@@ -24,7 +24,7 @@ text = '''-{Menu}-
       [0]-Выйти из программы(Exit the program)
       '''
 print(text)
-sp =int(input("(select number)Выберите номер:"))   
+sp =int(input("Spamers~#"))   
 
 def DSV1():
 	import os
