@@ -2,16 +2,16 @@ import os
 os.system('clear')
 
 banner = '''
-		                                                                                    
-		88888888ba,              88888888ba,    88888888ba,      ,ad8888ba,     ad88888ba   
-		88      `"8b             88      `"8b   88      `"8b    d8"'    `"8b   d8"     "8b  
-		88        `8b            88        `8b  88        `8b  d8'        `8b  Y8,          
-		88         88            88         88  88         88  88          88  `Y8aaaaa,    
-		88         88  aaaaaaaa  88         88  88         88  88          88    `"""""8b,  
-		88         8P  """"""""  88         8P  88         8P  Y8,        ,8P          `8b  
-		88      .a8P             88      .a8P   88      .a8P    Y8a.    .a8P   Y8a     a8P  
-		88888888Y"'              88888888Y"'    88888888Y"'      `"Y8888Y"'     "Y88888P"   
-		                                                                                    '''
+
+	88888888ba,              88888888ba,    88888888ba,      ,ad8888ba,     ad88888ba   
+	88      `"8b             88      `"8b   88      `"8b    d8"'    `"8b   d8"     "8b  
+	88        `8b            88        `8b  88        `8b  d8'        `8b  Y8,          
+	88         88            88         88  88         88  88          88  `Y8aaaaa,    
+	88         88  aaaaaaaa  88         88  88         88  88          88    `"""""8b,  
+	88         8P  """"""""  88         8P  88         8P  Y8,        ,8P          `8b  
+	88      .a8P             88      .a8P   88      .a8P    Y8a.    .a8P   Y8a     a8P  
+	88888888Y"'              88888888Y"'    88888888Y"'      `"Y8888Y"'     "Y88888P"   
+											    '''
 
 print(banner)
 text = '''                -{Menu}-
@@ -23,7 +23,7 @@ text = '''                -{Menu}-
 	[0]-Выйти из программы(Exit the program)
 		'''
 print(text)
-d = int(input('D-ddos~#'))  
+d = int(input('D-ddos~#:'))  
 
 def ddosv1():
 	import os
