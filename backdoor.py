@@ -41,7 +41,7 @@ else:
 		      ''`                             ::           
 							  '''
 print(banner)
-text = ''' 	-{Menu}-
+text = ''' 	     -{Menu}-
 	    --{Меню}--
      [1]-backdoor{server} (Создать)(Create)
      [2]-backdoor{client} (Создать)(Create)
