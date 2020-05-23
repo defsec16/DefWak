@@ -14,7 +14,7 @@ banner = '''
 		                                                                                    '''
 
 print(banner)
-text = '''      -{Menu}-
+text = '''          -{Menu}-
 		-{Меню}-
 	[1]-DDOS (version 1)
 	[2]=DDOS (version 2)
