@@ -100,25 +100,25 @@ def DefSec4():
 		  88888888P"   `"8bbdP"Y8   `"Ybbd8"'  88   `Y8a  `"8bbdP"Y8   `"YbbdP"'    `"YbbdP"'   88         '''   
 	else:
 		    banner = '''
-			      ``             /\               /.
-			      :d.           :Nm.            .s+       
-			      /MN-         .m:/N-          `mmN       
-			      /N:N:       .m+  :N-         hs/N       
-			      /N -N/     `do    -N:       hh /N       
-			      /N  .m+    hy      -N:     sh` /N       
-			      /N   .mo  sh`       -m+   od`  /N       
-			      /N    `dsom`         .m+ +m.   /N       
-			      :MyyyyyhMMdyyyyyyyyyyydMhMdyyyydm       
-				    :Nhh`           :My              
-				   -N:sd`          -N/hy             
-				  .m+   om`       .m+  hy`           
-				 `do     +m.     `do    yh`          
-				 hy       /m.    dy      sh`         
-				yh         /N:  hy        om`        
-			       om`          -N/yh`         om.       
-			      /m.            -md`           +m.      
-			      ''`                             ::           
-								  '''
+		      ``             /\               /.
+		      :d.           :Nm.            .s+       
+		      /MN-         .m:/N-          `mmN       
+		      /N:N:       .m+  :N-         hs/N       
+		      /N -N/     `do    -N:       hh /N       
+		      /N  .m+    hy      -N:     sh` /N       
+		      /N   .mo  sh`       -m+   od`  /N       
+		      /N    `dsom`         .m+ +m.   /N       
+		      :MyyyyyhMMdyyyyyyyyyyydMhMdyyyydm       
+			    :Nhh`           :My              
+			   -N:sd`          -N/hy             
+			  .m+   om`       .m+  hy`           
+			 `do     +m.     `do    yh`          
+			 hy       /m.    dy      sh`         
+			yh         /N:  hy        om`        
+		       om`          -N/yh`         om.       
+		      /m.            -md`           +m.      
+		      ''`                             ::           
+							  '''
 	print(banner)
 	text = ''' 	
 	             -{Menu}-
