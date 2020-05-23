@@ -81,11 +81,11 @@ def DefSec4():
   os.system("python recreator-phishing.py")
 
 if a ==0:
-	Defsec0()
+  Defsec0()
 elif a ==1:
-	DefSec1()
+  DefSec1()
 elif a ==2:
-	DefSec2()
+  DefSec2()
 elif a ==3:
   DefSec3()
 elif a ==4:
