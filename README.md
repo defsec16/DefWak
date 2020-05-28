@@ -15,7 +15,7 @@
 + $ git clone https://github.com/defsec16/DefWak
 + $ cd DefWak 
 + $ chmod +x *
-+ $ python DefWak.py
++ $ python defwak.py
 
 ### Если pip выдёт ошибку либо надо его установить или обновить (pip install --upgrade pip)
 
@@ -28,7 +28,7 @@
 * git clone https://github.com/defsec16/DefWak
 * cd DefWak
 * chomd +x (всё)
-* python3 DefWak.py
+* python3 defwak.py
 
 ## Возможно будут другие паки или дополнения
 
@@ -50,7 +50,7 @@
 + $ git clone https://github.com/defsec16/DefWak
 + $ cd DefWak 
 + $ chmod +x *
-+ $ python DefWak.py
++ $ python defwak.py
 ### If pip issues an error or you need to install or update it (pip install --upgrade pip)
 
 ## On Linux
@@ -63,4 +63,4 @@
 * git clone https://github.com/defsec16/DefWak
 * cd DefWak
 * chomd +x (всё)
-* python3 DefWak.py
+* python3 defwak.py
