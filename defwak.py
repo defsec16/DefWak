@@ -95,16 +95,12 @@ def DefSec1():
     sp =int(input("Spamers~#:"))   
 
     def DSV1():
-	import os
 	os.system('python DSpamer.py')
     def DSV2():
-	import os
 	os.system("python DSpamerV2.py")
     def DSV3():
-	import os
 	os.system('python DSpamerV3open.py')
-    def DS99():
-	import os 
+    def DS99(): 
 	os.system('python defwak.py')
     def DS0():
 	print('Прощайте!(Goodbye!)')
@@ -149,12 +145,10 @@ def DefSec2():
 	d = int(input('D-ddos~#:'))  
 
 	def ddosv1():
-		import os
 		ser = int(input("Введите сервер то есть ip:"))
 		port = int(input("Введите порт:")
 		os.system('python Dddos.py -s ser -p port')
 	def ddosv2():
-		import os
 		sv = int(input("Введите сервер то есть ip:"))
 		pt = int(input("Введите порт:"))
 		tr = int(input("Введите 135 по умолчанию"))
@@ -163,7 +157,6 @@ def DefSec2():
 		print('Прощайте!(Goodbye!)')
 		raise SystemExit
 	def ddosExit99():
-		import os
 		os.system('python defwak.py')
 
 	if d ==1:
