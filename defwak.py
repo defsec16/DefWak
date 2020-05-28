@@ -95,7 +95,7 @@ def DefSec1():
     sp =int(input("Spamers~#:"))   
 
     def DSV1():
-	os.system("python DSpamer.py") 
+	os.system("python DSpamer.py")
     def DSV2():
 	os.system("python DSpamerV2.py")
     def DSV3():
