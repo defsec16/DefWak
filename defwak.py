@@ -141,7 +141,7 @@ def DefSec2():
 			-{Menu}-
 		       --{Меню}--
 		[1]-DDOS (version 1)
-		[2]=DDOS (version 2)
+		[2]-DDOS (version 2)
 		[99]-назад в меню(back to main manu)
 		[0]-Выйти из программы(Exit the program)
 			'''
@@ -150,10 +150,15 @@ def DefSec2():
 
 	def ddosv1():
 		import os
-		os.system('python Dddos.py')
+		ser = int(input("Введите сервер то есть ip:"))
+		port = int(input("Введите порт:")
+		os.system('python Dddos.py -s ser -p port')
 	def ddosv2():
 		import os
-		os.system('python ddos-attack.py')    
+		sv = int(input("Введите сервер то есть ip:"))
+		pt = int(input("Введите порт:"))
+		tr = int(input("Введите 135 по умолчанию"))
+		os.system('python ddos-attack.py -s sv -p pt -t tr')    
 	def ddosExit():
 		print('Прощайте!(Goodbye!)')
 		raise SystemExit
