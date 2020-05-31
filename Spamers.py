@@ -1,4 +1,4 @@
-import os,request
+import os
 os.system("сlear")
 baner = '''
    _____                                     
