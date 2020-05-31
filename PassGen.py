@@ -54,7 +54,7 @@ class PassGen:
           print('To generate a list of passwords, enter: startgen')
 
           try:
-            user_input = str(input('\n$> ')).strip()
+            user_input = str(input('\nPassGen~#: ')).strip()
           except:
             self.is_alive = False
 
