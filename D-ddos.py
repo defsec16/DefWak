@@ -9,7 +9,7 @@ bannerD = '''
 		88         8P  """"""""  88         8P  88         8P  Y8,        ,8P          `8b  
 		88      .a8P             88      .a8P   88      .a8P    Y8a.    .a8P   Y8a     a8P  
 		88888888Y"'              88888888Y"'    88888888Y"'      `"Y8888Y"'     "Y88888P"   
-												    '''
+											~Code by Alisher	    '''
 
 print(bannerD)
 text = '''                
