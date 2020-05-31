@@ -52,6 +52,7 @@ else:
 
 print(banner)
 text ='''          
+~Code by Alisher
 	  -{Main Manu}-
          -{Главное Меню}-
       Что вам будет угодно?(what do you want?)
