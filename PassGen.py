@@ -157,28 +157,28 @@ class PassGen:
                     self.password_list.append(
                         f'{month[-1]}{day[-1]}{word}{year[2:]}')
 
-        self.password_list.append(f'{month}{word}{suffix}')
-        self.password_list.append(f'{month[-1]}{word}{suffix}')
+                    self.password_list.append(f'{month}{word}{suffix}')
+                    self.password_list.append(f'{month[-1]}{word}{suffix}')
 
-        self.password_list.append(f'{day}{word}{suffix}')
-        self.password_list.append(f'{day[-1]}{word}{suffix}')
+                    self.password_list.append(f'{day}{word}{suffix}')
+                    self.password_list.append(f'{day[-1]}{word}{suffix}')
 
-        self.password_list.append(f'{suffix}{word}{month}')
-        self.password_list.append(f'{suffix}{word}{month[-1]}')
+                    self.password_list.append(f'{suffix}{word}{month}')
+                    self.password_list.append(f'{suffix}{word}{month[-1]}')
 
-        self.password_list.append(f'{suffix}{word}{day}')
-        self.password_list.append(f'{suffix}{word}{day[-1]}')
+                    self.password_list.append(f'{suffix}{word}{day}')
+                    self.password_list.append(f'{suffix}{word}{day[-1]}')
 
-        self.password_list.append(f'{suffix}{word}{year}')
-        self.password_list.append(f'{suffix}{word}{year[2:]}')
+                    self.password_list.append(f'{suffix}{word}{year}')
+                    self.password_list.append(f'{suffix}{word}{year[2:]}')
 
-  with open('passwords.txt', 'wt', encoding='utf-8') as output_file:
+        with open('passwords.txt', 'wt', encoding='utf-8') as output_file:
 
-      print(
-    f'Создан список {len(self.password_list)} пароли ...')
+            print(
+                f'Создан список {len(self.password_list)} пароли ...')
 
-      for pwd in self.password_list:
-    output_file.write(f'{pwd}\n')
+            for pwd in self.password_list:
+                output_file.write(f'{pwd}\n')
 
 
 if __name__ == '__main__':
