@@ -1,5 +1,5 @@
 #code written and owned by DefSec16 tobish Alisher Zhussip
-import os, random, colorama
+import os, random, colorama, requests
 os.system("clear")
 ban = random.randint(0,2)
 if ban ==0:
