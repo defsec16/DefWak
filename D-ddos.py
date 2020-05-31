@@ -25,7 +25,7 @@ d = int(input('D-ddos~#:'))
 def ddosv1():
 	ser = int(input("Введите сервер то есть ip:"))
 	port = int(input("Введите порт:")
-	os.system('python Dddos.py -s + str(ser) + -p + str(port)')
+	os.system('python Dddos.py -s + str(ser) + -p + str(port) ')
 def ddosv2():
 	sv = int(input("Введите сервер то есть ip:"))
 	pt = int(input("Введите порт:"))
