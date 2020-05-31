@@ -42,3 +42,5 @@ elif sp == 0:
   DS0()
 elif sp ==99:
   DS99()
+else:
+	print('Ошибка:не найдено(Error:not found)')
