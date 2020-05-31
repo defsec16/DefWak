@@ -1,4 +1,4 @@
-import os,requests
+import os
 os.system('clear')
 bannerD = '''
 		88888888ba,              88888888ba,    88888888ba,      ,ad8888ba,     ad88888ba   
