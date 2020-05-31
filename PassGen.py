@@ -1,3 +1,4 @@
+import os
 os.system('clear')
 bannerP = '''
     ______             _____            
