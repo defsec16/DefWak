@@ -3,7 +3,7 @@ import os, random, colorama
 os.system("clear")
 ban = random.randint(0,2)
 if ban ==0:
-  banner ='''
+  banner =''' \u001b[32m"
     ============================================                                           
         _____        ____          __   _    
        |  __ \      / _\ \        / /  | |   
@@ -17,7 +17,7 @@ if ban ==0:
        '''
 
 elif ban ==2:
-  banner = ''' \u001b[32m"
+  banner = ''' 
                                                                                           
         88888888ba,                   ad88  I8,        8        ,8I            88         
         88      `"8b                 d8"    `8b       d8b       d8'            88         
