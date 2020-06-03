@@ -69,7 +69,6 @@ def dos2():
 def usage():
 	print (''' \033[32m	
 	usage : python3 ddos-attack.py [-s] [-p] [-t]
-	-h : help
 	-s : server ip
 	-p : port default 80
 	-t : turbo default 135''')
