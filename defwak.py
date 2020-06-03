@@ -1,5 +1,5 @@
 #code written and owned by DefSec16 or Alisher Zhussip
-import os, random, colorama
+import os, random, time
 os.system("clear")
 ban = random.randint(0,2)
 if ban ==0:
@@ -140,12 +140,15 @@ def DefSec4():
 		raise SystemExit
 	def Backdoor1():
 		print("Скоро(soon)")
+		time.sleep(5)
 		DefSec4()
 	def Backdoor2():
 		print("Скоро(soon)")
+		time.sleep(5)
 		DefSec4()
 	def Backdeoo3():
 		print("Скоро(soon)")
+		time.sleep(5)
 		DefSec4()
 	def Backdoor99():
 		import os
