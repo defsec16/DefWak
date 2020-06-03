@@ -8,11 +8,10 @@
 + $ apt update && apt upgrade -y
 + $ pkg install git
 + $ pkg install python
-+ $ pip install colorama
 + $ pkg install wget
-+ $ pip3 install wget
 + $ pkg install php
 + $ git clone https://github.com/defsec16/DefWak
++ $ pip3 install -r requirements.txt
 + $ cd DefWak 
 + $ chmod +x *
 + $ python defwak.py
