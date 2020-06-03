@@ -23,8 +23,8 @@
 * apt-get install git
 * apt-get install colorama
 * apt-get install wget
-* pip3 install wget
 * git clone https://github.com/defsec16/DefWak
+* pip3 install -r requirements.txt
 * cd DefWak
 * chomd +x (всё)
 * python3 defwak.py
@@ -42,11 +42,10 @@
 + $ apt update && apt upgrade -y
 + $ pkg install git
 + $ pkg install python
-+ $ pip install colorama
 + $ pkg install wget
-+ $ pip3 install wget
 + $ pkg install php
 + $ git clone https://github.com/defsec16/DefWak
++ $ pip3 install -r requirements.txt
 + $ cd DefWak 
 + $ chmod +x *
 + $ python defwak.py
@@ -58,8 +57,8 @@
 * apt-get install git
 * apt-get install colorama
 * apt-get install wget
-* pip3 install wget
 * git clone https://github.com/defsec16/DefWak
+* pip3 install -r requirements.txt
 * cd DefWak
 * chomd +x (всё)
 * python3 defwak.py
