@@ -53,7 +53,7 @@ else:
 print(banner)
 text ='''          
 ~Code by Alisher
-	  -{Main Manu}-
+	  -{Main Menu}-
          -{Главное Меню}-
       Что вам будет угодно?(what do you want?)
         [1]-DSpamers
