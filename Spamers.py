@@ -8,12 +8,13 @@ banner = '''
 	  /\__/ / |_) | (_| | | | | | |  __/ |  \__ \
 	  \____/| .__/ \__,_|_| |_| |_|\___|_|  |___/
 		| |                                  
-		|_|                                 '''
+		|_|           
+		'''
 
 print(banner)
 text = '''	  
-    -{Menu}-
-   --{Меню}--
+	    -{Menu}-
+	   --{Меню}--
       [1]-DSpamer(Version 1)
       [2]-DSpamer(Version 2)
       [3]-DSpamer(Version 3)
