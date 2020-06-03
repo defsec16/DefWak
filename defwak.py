@@ -140,10 +140,13 @@ def DefSec4():
 		raise SystemExit
 	def Backdoor1():
 		print("Скоро(soon)")
+		DefSec4()
 	def Backdoor2():
 		print("Скоро(soon)")
+		DefSec4()
 	def Backdeoo3():
 		print("Скоро(soon)")
+		DefSec4()
 	def Backdoor99():
 		import os
 		os.system("python defwak.py")
