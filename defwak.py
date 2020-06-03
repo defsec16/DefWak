@@ -136,7 +136,7 @@ def DefSec4():
 	print(text)
 	back = int(input("Backdoor~#:"))
 	def Backdoor0():
-		print("Прощайте!(Goodbyr!)")
+		print("Прощайте!(Goodbye!)")
 		raise SystemExit
 	def Backdoor1():
 		print("Скоро(soon)")
