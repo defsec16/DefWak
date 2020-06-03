@@ -27,18 +27,8 @@ d = int(input('D-ddos~#:'))
 def ddosv1():
 	os.system('python Dddos.py')
 def ddosv2():
-	os.system('python ddos-attack.py')    
-def ddosExit():
-	print('Прощайте!(Goodbye!)')
-	raise SystemExit
-def ddosExit99():
-	os.system('python defwak.py')
-
-if d ==1:
-	ddosv1()
-elif d ==2:
-	ddosv2()
-elif d ==3:
+	os.system('python ddos-attack.py')
+def ddosv3():
 	text = """
 	Теперь пишем на каком порту сайт
 Если 80:
@@ -61,6 +51,18 @@ Do you want proxy/socks mode? Answer 'y' to enable it: Здесь пишем х�
 --------------------------------------------------------------
 Жмём Enter (Ввод) и у нас запускается атака """
 	os.chdir("HardyTomas")
+def ddosExit():
+	print('Прощайте!(Goodbye!)')
+	raise SystemExit
+def ddosExit99():
+	os.system('python defwak.py')
+
+if d ==1:
+	ddosv1()
+elif d ==2:
+	ddosv2()
+elif d ==3:
+	ddosv3()
 elif d ==99:
 	ddosExit99() 
 elif d ==0:
