@@ -23,6 +23,7 @@
 * apt-get install git
 * apt-get install colorama
 * apt-get install wget
+* apt-get install scapy-python3
 * git clone https://github.com/defsec16/DefWak
 * pip3 install -r requirements.txt
 * cd DefWak
@@ -57,6 +58,7 @@
 * apt-get install git
 * apt-get install colorama
 * apt-get install wget
+* apt-get install scapy-python3
 * git clone https://github.com/defsec16/DefWak
 * pip3 install -r requirements.txt
 * cd DefWak
