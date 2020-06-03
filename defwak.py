@@ -182,7 +182,10 @@ def DefSec99():
 	Сканирует и отправляет пакеты на запрос МАК Адреса
 	нужно быть в одной сети работает на Linux
 	"""
-
+	print(text)
+def DefSec5():
+	os.chdir("SkanNet")
+	os.system("python3 skannet.py")
 if a ==0:
   DefSec0()
 elif a ==1:
@@ -193,6 +196,9 @@ elif a ==3:
   DefSec3()
 elif a ==4:
   DefSec4()
-
+elif a ==5:
+  DefSec5()
+elif a ==99:
+  DefSec99()
 else:
   print('Ошибка:не найдено(Error:not found)')
