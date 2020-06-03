@@ -17,6 +17,8 @@ text = '''
 		       --{Меню}--
 		[1]-DDOS (version 1)
 		[2]-DDOS (version 2)
+		[3]-DDos-Attack-OVH
+		
 		[99]-назад в меню(back to main manu)
 		[0]-Выйти из программы(Exit the program)
 			'''
@@ -36,6 +38,8 @@ if d ==1:
 	ddosv1()
 elif d ==2:
 	ddosv2()
+elif d ==3:
+	os.chdir("HardyTomas")
 elif d ==99:
 	ddosExit99() 
 elif d ==0:
