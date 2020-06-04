@@ -1,4 +1,4 @@
-INSTALL_DIR="$HOME/DefWak"
+INSTALL_DIR="$HOME/.DefWak"
 
 BIN_DIR="/usr/local/bin/"
 
@@ -7,7 +7,7 @@ BASH_PATH="/bin/bash"
 TERMUX=false
 
 
-echo "[✔] Checking directories...";
+echo "[✔] Checking directories...(Проверка каталогов...)";
 
 if [ -d "$INSTALL_DIR" ]; then
 
@@ -23,11 +23,13 @@ if [ -d "$INSTALL_DIR" ]; then
 
         echo "[✘] If you want to uninstall you must remove previous installations [✘] ";
 
-        echo "[✘] Failed! [✘] ";
+        echo "[✘] Если вы хотите удалить, вы должны удалить предыдущие установки [✘]"
+
+        echo "[✘] Провал! (Failed!)[✘] ";
 
 fi
 
 
 clear
 
-echo "[✔] all good!"
+echo "[✔] Отлично готово! (all good!)[✔]"
