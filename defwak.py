@@ -201,4 +201,7 @@ elif a ==5:
 elif a ==99:
   DefSec99()
 else:
-  print('Ошибка:не найдено(Error:not found)')
+	if ValuesError:
+		print('Ошибка:не найдено(Error:not found)')
+	else:
+  		print('Ошибка:не найдено(Error:not found)')
