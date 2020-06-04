@@ -202,3 +202,5 @@ elif a ==99:
   DefSec99()
 else:
 	print('Ошибка:не найдено(Error:not found)')
+	time.sleep(3)
+	os.system("python defwak.py")
