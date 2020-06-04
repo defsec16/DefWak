@@ -71,6 +71,7 @@ text ='''
 	
 	[99]-Информация(Information)
 	[98]-Удалить программу
+	[97]-Обновить
 	[0]-Выход(exit)
         (select number)Выберите номер:
         '''
@@ -255,6 +256,8 @@ elif a ==99:
   DefSec99()
 elif a ==98:
 	delete()
+elif a ==97:
+	DefSec97()
 else:
 	print('Ошибка:не найдено(Error:not found)')
 	time.sleep(3)
