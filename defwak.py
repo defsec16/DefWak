@@ -169,9 +169,31 @@ def DefSec4():
 		time.sleep(5)
 		DefSec4()
 	def Backdeoo3():
-		print("Скоро(soon)")
-		time.sleep(5)
-		DefSec4()
+		text = ''' \033[33m
+		Рус-RU
+		И так я написал простенький бэкдор состоит он из:
+		1-Клиент для жертвы
+		2-Сервер для хакера
+		Чтоб антивирусы не палили бэкдор,соединение произходит самой жертвой,
+		то есть соединение будет происходить к серверу.
+		НО прежде чем использовать Клиент надо зашифровать и склеить с приложением
+		Что бы всё работало необходимо:когда клиент и сервер оба включены 
+		Когда всё прошло успешно вы можете управлять системой через терминал
+		P.s Учитывая какая ОС таким и команды нужно вводить
+		
+		Англ-Eng
+		And so I wrote a simple backdoor it consists of:
+		1-Client for the victim
+		2-Server for the hacker
+		So that antiviruses do not fire backdoor, the connection is made by the victim itself,
+		that is, the connection will occur to the server.
+		BUT before using the Client must be encrypted and glued with the application
+		For everything to work, it’s necessary: when the client and server are both turned on
+		When everything went well you can control the system through the terminal
+		P.s Given which OS and commands you need to enter	'''
+		print(text)
+		print('Перейти в главное меню?(Go to the main menu?)\n Да/Нет | Yes/No')
+		otv()
 	def Backdoor99():
 		import os
 		os.system("python defwak.py")
