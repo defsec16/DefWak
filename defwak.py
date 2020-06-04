@@ -57,9 +57,9 @@ else:
 
 print(banner)
 text ='''          
-~Code by Alisher
-	  -{Main Menu}-
-         -{Главное Меню}-
+					~Code by Alisher
+	  ~-{Main Menu}-~
+         ~-{Главное Меню}-~
       Что вам будет угодно?(what do you want?)
         [1]-DSpamers
         [2]-D-ddos
@@ -188,8 +188,8 @@ def DefSec4():
 def DefSec99():
 	clean()
 	texta = """
-	\033[33m"
-	Рус RU
+	\033[33m
+	Рус-RU
 	Информация о программах:
 	1)DSpamers - DefineSpamers 
 	  Перевод:Определить спамер
@@ -211,7 +211,7 @@ def DefSec99():
 	  Сканирует и отправляет пакеты на запрос МАК Адреса
 	  нужно быть в одной сети работает на Linux
 	  
-	Англ Eng
+	Англ-Eng
 	Information about the programs:
 	1)DSpamers - DefineSpamers
 	  Сurrently there are 3 versions of spammers
