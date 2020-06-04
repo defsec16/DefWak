@@ -1,6 +1,11 @@
 #code written and owned by DefSec16 or Alisher Zhussip
 import os, random, time
-os.system("clear")
+def clean():
+	try:
+		os.system('clear')
+	except:
+		os.system('cls')
+clean()
 ban = random.randint(0,2)
 if ban ==0:
   banner =''' \u001b[32m"
@@ -82,7 +87,7 @@ def DefSec2():
 def DefSec3():
   	os.system('python PassGen.py')
 def DefSec4():
-	os.system("clear")
+	clean()
 	ban = random.randint(0,2)
 	if ban == 0:
 		  banner = '''
@@ -167,6 +172,7 @@ def DefSec4():
 	else:
 		print("Не найдено(Not found)")
 def DefSec99():
+	clean()
 	text = """
 	Информация о программах:
 	1)DSpamers - DefineSpamers = Определить спамер
@@ -191,7 +197,7 @@ def DefSec99():
 		raise SystemExit
 	elif otvet ==Да or otvet ==да or otvet ==Д or otvet ==д or otvet ==Yes or otvet ==yes or otvet ==Y or otvet ==y:
 		os.system('python defwak.py')
-	print(text)
+	
 def DefSec5():
 	os.chdir("SkanNet")
 	os.system("python3 skannet.py")
