@@ -212,7 +212,7 @@ def DefSec99():
 			
 def DefSec97():
 	try:
-		exit()
+		
 		os.system('clear')
 	except:
 		print('Не удалось')
