@@ -28,7 +28,7 @@ elif ban ==2:
         88      .a8P   "8b,   ,aa    88         `8a8'     `8a8'    88,    ,88  88`"Yba,   
         88888888Y"'     `"Ybbd8"'    88          `8'       `8'     `"8bbdP"Y8  88   `Y8a       '''
 else:
-  banner = '''
+  banner = ''' \u001b[32m"
               ``             /\               /.
               :d.           :Nm.            .s+       
               /MN-         .m:/N-          `mmN       
@@ -201,7 +201,7 @@ elif a ==5:
 elif a ==99:
   DefSec99()
 else:
-	if ValuesError:
+	if ValueError:
 		print('Ошибка:не найдено(Error:not found)')
 	else:
   		print('Ошибка:не найдено(Error:not found)')
