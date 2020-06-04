@@ -148,8 +148,8 @@ def DefSec4():
 	text = ''' 	
 	             -{Menu}-
 		    --{Меню}--
-	     [1]-backdoor{server} (Создать)(Create)
-	     [2]-backdoor{client} (Создать)(Create)
+	     [1]-backdoor{server} (Создать)(Create) {Скоро}
+	     [2]-backdoor{client} (Создать)(Create) {Скоро}
 	     [3]-Применение(application)
 	     
 	     [99]-Назад в главное меню(back to main menu)
