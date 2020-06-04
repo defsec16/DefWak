@@ -1,5 +1,5 @@
 import os
-os.system(сlear)
+os.system('сlear')
 
 banner = '''
 		 _____                                     
