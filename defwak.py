@@ -22,7 +22,7 @@ if ban ==0:
        '''
 
 elif ban ==2:
-  banner = ''' 
+  banner = ''' \u001b[32m"
                                                                                           
         88888888ba,                   ad88  I8,        8        ,8I            88         
         88      `"8b                 d8"    `8b       d8b       d8'            88         
