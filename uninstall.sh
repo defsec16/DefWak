@@ -1,4 +1,4 @@
-INSTALL_DIR="$HOME/.fsociety"
+INSTALL_DIR="$HOME/DefWak"
 
 BIN_DIR="/usr/local/bin/"
 
@@ -13,11 +13,11 @@ if [ -d "$INSTALL_DIR" ]; then
 
         rm -rf "$INSTALL_DIR"
 
-        rm "$BIN_DIR/fsociety*"
+        rm "$BIN_DIR/DefWak*"
 
         sudo rm -rf "$INSTALL_DIR"
 
-        sudo rm "$BIN_DIR/fsociety*"
+        sudo rm "$BIN_DIR/DefWak*"
 
     else
 
@@ -27,25 +27,6 @@ if [ -d "$INSTALL_DIR" ]; then
 
 fi
 
-echo "[✔] Cleaning up old directories...";
-
-if [ -d "$ETC_DIR/Manisso" ]; then
-
-    echo "$DIR_FOUND_TEXT"
-
-    if [ "$TERMUX" = true ]; then
-
-        rm -rf "$ETC_DIR/Manisso"
-
-    else
-
-        sudo rm -rf "$ETC_DIR/Manisso"
-
-    fi
-
-fi
-
-clear
 
 clear
 
