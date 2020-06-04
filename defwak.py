@@ -200,5 +200,5 @@ elif a ==5:
   DefSec5()
 elif a ==99:
   DefSec99()
-else ValueError:
+else:
 	print('Ошибка:не найдено(Error:not found)')
