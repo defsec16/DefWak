@@ -76,19 +76,19 @@ text ='''
         '''
 print(text)
 a = int(input("DefWak~#:"))
-def otv:
-		yes = {'yes','y', 'ye', }
-		no = {'no','n'}
+def otv():
+	yes = {'yes','y', 'ye', }
+	no = {'no','n'}
 
-		otvet = input('Введите ответ:')
-		if otvet in yes:
-	   		os.system("python defwak.py")
-		elif otvet in no:
-	   		print("Прощайте!(Goodbye!)")
-	   		raise SystemExit
-		else:
-			print("Дайте пожалуйста ответ")
-			otv()
+	otvet = input('Введите ответ:')
+	if otvet in yes:
+		os.system("python defwak.py")
+	elif otvet in no:
+		print("Прощайте!(Goodbye!)")
+		raise SystemExit
+	else:
+		print("Дайте пожалуйста ответ")
+		otv()
 def DefSec0():
 	print("Прощайте!(Goodbye!)")
 	raise SystemExit
