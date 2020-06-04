@@ -1,5 +1,10 @@
 import os
-os.system('clear')
+def clean():
+	try:
+		os.system('clear')
+	except:
+		os.system('cls')
+clean()
 bannerD = '''
 		88888888ba,              88888888ba,    88888888ba,      ,ad8888ba,     ad88888ba   
 		88      `"8b             88      `"8b   88      `"8b    d8"'    `"8b   d8"     "8b  
