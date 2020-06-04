@@ -70,6 +70,7 @@ text ='''
 	[7]-В плане
 	
 	[99]-Информация(Information)
+	[98]-Удалить программу
 	[0]-Выход(exit)
         (select number)Выберите номер:
         '''
@@ -88,7 +89,8 @@ def otv():
 	else:
 		print("Дайте пожалуйста ответ(Please,give an answer)")
 		otv()
-
+def delete():
+	os.system('bash uninstall.sh')
 def DefSec0():
 	print("Прощайте!(Goodbye!)")
 	raise SystemExit
@@ -249,6 +251,8 @@ elif a ==5:
   DefSec5()
 elif a ==99:
   DefSec99()
+elif a ==98:
+	delete()
 else:
 	print('Ошибка:не найдено(Error:not found)')
 	time.sleep(3)
