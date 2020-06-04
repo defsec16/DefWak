@@ -1,5 +1,6 @@
 import os
 os.system("сlear")
+
 banner = '''
    _____                                     
   /  ___|                                    
