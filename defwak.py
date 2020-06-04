@@ -234,8 +234,6 @@ def DefSec99():
 	print('Перейти в главное меню?(Go to the main menu?)\n Да/Нет | Yes/No')
 	otv()
 def DefSec97():
-	os.system('bash uninstall.sh')
-	os.system('cd')
 	os.system('bash upgrade.sh')
 def DefSec5():
 	os.chdir("SkanNet")
