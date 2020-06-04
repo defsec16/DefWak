@@ -89,6 +89,7 @@ def otv():
 	else:
 		print("Дайте пожалуйста ответ(Please,give an answer)")
 		otv()
+
 def DefSec0():
 	print("Прощайте!(Goodbye!)")
 	raise SystemExit
@@ -187,6 +188,7 @@ def DefSec4():
 def DefSec99():
 	clean()
 	texta = """
+	\033[33m"
 	Рус RU
 	Информация о программах:
 	1)DSpamers - DefineSpamers 
