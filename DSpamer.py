@@ -1,4 +1,4 @@
-import requests, datetime, random
+import request, datetime, random
 import os
 import sys
 from colorama import Fore
