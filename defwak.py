@@ -195,18 +195,19 @@ def DefSec99():
 	  нужно быть в одной сети работает на Linux """
 	print(text)
 	print('Перейти в главное меню? \n Да/Нет | Yes/No')
-	yes = {'yes','y', 'ye', ''}
-	no = {'no','n'}
+	def otv:
+		yes = {'yes','y', 'ye', }
+		no = {'no','n'}
 
-	otvet = input('Введите ответ:')
-	if otvet in yes:
-	   clean()
-	   os.system("python defwak.py")
-	elif otvet in no:
-	   print("Прощайте!(Goodbye!)")
-	   raise SystemExit
-	
-	
+		otvet = input('Введите ответ:')
+		if otvet in yes:
+	   		os.system("python defwak.py")
+		elif otvet in no:
+	   		print("Прощайте!(Goodbye!)")
+	   		raise SystemExit
+		else:
+			print("Дайте пожалуйста ответ")
+			otv()
 def DefSec5():
 	os.chdir("SkanNet")
 	os.system("python3 skannet.py")
