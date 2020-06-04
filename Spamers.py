@@ -19,6 +19,7 @@ text = '''
       [1]-DSpamer(Version 1)
       [2]-DSpamer(Version 2)
       [3]-DSpamer(Version 3)
+      
       [99]-Назад в главное меню(back to main menu)
       [0]-Выйти из программы(Exit the program)
       '''
