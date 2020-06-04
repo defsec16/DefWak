@@ -89,7 +89,10 @@ def otv():
 	else:
 		print("Дайте пожалуйста ответ(Please,give an answer)")
 		otv()
-
+def update():
+	os.system('git clone --depth=1 https://github.com/defsec16/DefWak.git')
+	os.system('cd DefWak')
+	os.system('python defwak.py')
 def DefSec0():
 	print("Прощайте!(Goodbye!)")
 	raise SystemExit
@@ -259,6 +262,8 @@ elif a ==99:
   DefSec99()
 elif a ==97:
   DefSec97()
+elif a ==98:
+  update()
 else:
 	print('Ошибка:не найдено(Error:not found)')
 	time.sleep(3)
