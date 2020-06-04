@@ -238,6 +238,21 @@ def DefSec97():
 def DefSec5():
 	os.chdir("SkanNet")
 	os.system("python3 skannet.py")
+def upmenu():
+	print("1-Termux  2-Linux
+	ue = int(input("Что у вас?(What do you have?)"))
+	if ue ==1:
+	      print('Будет сделано(Will be done!)')
+	      timr.sleep(2)
+	      os.system('bash upgrade.sh')
+	elif ue ==2:
+	      print('Будет сделано(Will be done!)')
+	      timr.sleep(2)
+	      os.system('bash upgradeLinux.sh')
+	else:
+	      print('Ошибка:не найдено(Error:not found)')
+	      upmenu()
+	      
 if a ==0:
   DefSec0()
 elif a ==1:
