@@ -8,7 +8,7 @@ def clean():
 clean()
 ban = random.randint(0,2)
 if ban ==0:
-  banner =''' \u001b[32m"
+  banner =''' \u001b[32m
     ============================================                                           
         _____        ____          __   _    
        |  __ \      / _\ \        / /  | |   
@@ -22,7 +22,7 @@ if ban ==0:
        '''
 
 elif ban ==2:
-  banner = ''' \u001b[32m"
+  banner = ''' \u001b[32m
                                                                                           
         88888888ba,                   ad88  I8,        8        ,8I            88         
         88      `"8b                 d8"    `8b       d8b       d8'            88         
@@ -33,7 +33,7 @@ elif ban ==2:
         88      .a8P   "8b,   ,aa    88         `8a8'     `8a8'    88,    ,88  88`"Yba,   
         88888888Y"'     `"Ybbd8"'    88          `8'       `8'     `"8bbdP"Y8  88   `Y8a       '''
 else:
-  banner = ''' \u001b[32m"
+  banner = ''' \u001b[32m
               ``             /\               /.
               :d.           :Nm.            .s+       
               /MN-         .m:/N-          `mmN       
@@ -77,7 +77,7 @@ text ='''
 print(text)
 a = int(input("DefWak~#:"))
 def otv():
-	yes = {'yes','y', 'ye','ys','Y','Yes','YES','YE','YS','Да','ДА','Д','д'}
+	yes = {'yes','y', 'ye','ys','Y','Yes','YES','YE','YS','Да','ДА','Д','д','да'}
 	no = {'no','n','NO','No','N','Нет','нет','Н','н','НЕ','не','НЕТ','Не','Неа','НЕА','nope','Nope','NOPE'}
 
 	otvet = input('info~#:')
