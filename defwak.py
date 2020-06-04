@@ -70,12 +70,25 @@ text ='''
 	[7]-В плане
 	
 	[99]-Информация(Information)
+	[97]-Удалить программу(Delete program)
 	[0]-Выход(exit)
         (select number)Выберите номер:
         '''
 print(text)
 a = int(input("DefWak~#:"))
+def otv:
+		yes = {'yes','y', 'ye', }
+		no = {'no','n'}
 
+		otvet = input('Введите ответ:')
+		if otvet in yes:
+	   		os.system("python defwak.py")
+		elif otvet in no:
+	   		print("Прощайте!(Goodbye!)")
+	   		raise SystemExit
+		else:
+			print("Дайте пожалуйста ответ")
+			otv()
 def DefSec0():
 	print("Прощайте!(Goodbye!)")
 	raise SystemExit
@@ -195,19 +208,14 @@ def DefSec99():
 	  нужно быть в одной сети работает на Linux """
 	print(text)
 	print('Перейти в главное меню? \n Да/Нет | Yes/No')
-	def otv:
-		yes = {'yes','y', 'ye', }
-		no = {'no','n'}
-
-		otvet = input('Введите ответ:')
-		if otvet in yes:
-	   		os.system("python defwak.py")
-		elif otvet in no:
-	   		print("Прощайте!(Goodbye!)")
-	   		raise SystemExit
-		else:
-			print("Дайте пожалуйста ответ")
-			otv()
+	otv()
+			
+def DefSec97():
+	try:
+		exit()
+		os.system('clear')
+	except:
+		print('Не удалось')
 def DefSec5():
 	os.chdir("SkanNet")
 	os.system("python3 skannet.py")
@@ -225,6 +233,8 @@ elif a ==5:
   DefSec5()
 elif a ==99:
   DefSec99()
+elif a ==97:
+  DefSec97()
 else:
 	print('Ошибка:не найдено(Error:not found)')
 	time.sleep(3)
