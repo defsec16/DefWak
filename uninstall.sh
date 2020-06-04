@@ -1,0 +1,52 @@
+INSTALL_DIR="$HOME/.fsociety"
+
+BIN_DIR="/usr/local/bin/"
+
+BASH_PATH="/bin/bash"
+
+TERMUX=false
+
+
+echo "[✔] Checking directories...";
+
+if [ -d "$INSTALL_DIR" ]; then
+
+        rm -rf "$INSTALL_DIR"
+
+        rm "$BIN_DIR/fsociety*"
+
+        sudo rm -rf "$INSTALL_DIR"
+
+        sudo rm "$BIN_DIR/fsociety*"
+
+    else
+
+        echo "[✘] If you want to uninstall you must remove previous installations [✘] ";
+
+        echo "[✘] Failed! [✘] ";
+
+fi
+
+echo "[✔] Cleaning up old directories...";
+
+if [ -d "$ETC_DIR/Manisso" ]; then
+
+    echo "$DIR_FOUND_TEXT"
+
+    if [ "$TERMUX" = true ]; then
+
+        rm -rf "$ETC_DIR/Manisso"
+
+    else
+
+        sudo rm -rf "$ETC_DIR/Manisso"
+
+    fi
+
+fi
+
+clear
+
+clear
+
+echo "[✔] all good!"
