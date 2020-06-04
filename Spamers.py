@@ -1,6 +1,10 @@
 import os
-os.system('сlear')
-
+def clean():
+	try:
+		os.system('clear')
+	except:
+		os.system('cls')
+clean()
 banner = '''
  _____                                     
 /  ___|                                    
