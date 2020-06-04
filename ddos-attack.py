@@ -105,7 +105,7 @@ def get_parameters():
 
 
 global data
-headers = open("headers.txt", "r")
+headers = open("headers1.txt", "r")
 data = headers.read()
 headers.close()
 
