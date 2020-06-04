@@ -234,7 +234,7 @@ def DefSec99():
 	
 def DefSec97():
 	try:
-		os.system('cd')
+		os.system('cd ..')
 		os.system('rm -rf DefWak')
 		os.system('clear')
 		print('Всё готово)!')
