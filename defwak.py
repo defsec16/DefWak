@@ -175,27 +175,31 @@ def DefSec99():
 	clean()
 	text = """
 	Информация о программах:
-	1)DSpamers - DefineSpamers = Определить спамер
+	1)DSpamers - DefineSpamers 
+	  Перевод:Определить спамер
 	  на данный момент есть 3 версии спамеров
-	2)D-DDos - DefineDDos = Определить ДДосер
+	2)D-DDos - DefineDDos 
+	  Перевод: Определить ДДосер
 	  на данный момент есть 3 разных ддосреа
-	3)PassGen - Password Generation - Генерация пароля по ключевым словам
+	3)PassGen - Password Generation
+	  Перевод: Генерация пароля по ключевым словам
 	  Оно генерирует пароли по словам,чем больше слов тем обширнее список паролей.
 	  Список паролей сохраняется в txt формате
 	4)BackDoor - Черный вход 
 	  Нужен для удаленного контроля при помощи терминала.
 	  состоит из клиента который должен запустить мамонт(Жертва)
 	и сервера который должен запустить хакер 
-	5)SkanNet -Skaner Network = Сконирование сети
+	5)SkanNet -Skaner Network
+	  Перевод:Сконирование сети
 	  Сканирует и отправляет пакеты на запрос МАК Адреса
 	  нужно быть в одной сети работает на Linux """
 	print(text)
-	print('Перейти в главное меню?')
-	otvet = input("Да/Нет | Yes/No")
-	if otvet ==Нет or otvet ==нет or otvet ==н or otvet ==Н or otvet ==No or otvet ==no or otvet ==N or otvet ==n:
+	print('Перейти в главное меню? \n Да/Нет | Yes/No')
+	otvet = input("Введите ответ:")
+	if otvet = Нет or otvet = нет or otvet = н or otvet = Н or otvet = No or otvet = no or otvet = N or otvet = n:
 		print("Прощайте!(Goodbye!)")
 		raise SystemExit
-	elif otvet ==Да or otvet ==да or otvet ==Д or otvet ==д or otvet ==Yes or otvet ==yes or otvet ==Y or otvet ==y:
+	elif otvet = Да or otvet = да or otvet = Д or otvet = д or otvet = Yes or otvet = yes or otvet = Y or otvet = y:
 		os.system('python defwak.py')
 	
 def DefSec5():
