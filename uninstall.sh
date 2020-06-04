@@ -1,4 +1,4 @@
-INSTALL_DIR="$HOME/.DefWak"
+INSTALL_DIR="$HOME/DefWak"
 
 BIN_DIR="/usr/local/bin/"
 
