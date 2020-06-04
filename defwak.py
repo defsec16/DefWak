@@ -198,11 +198,11 @@ def DefSec99():
 	yes = {'yes','y', 'ye', ''}
 	no = {'no','n'}
 
-	choice = raw_input().lower()
-	if choice in yes:
+	otvet = input('Введите ответ:')
+	if otvet in yes:
 	   clean()
 	   os.system("python defwak.py")
-	elif choice in no:
+	elif otvet in no:
 	   print("Прощайте!(Goodbye!)")
 	   raise SystemExit
 	
