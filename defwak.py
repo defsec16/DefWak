@@ -77,17 +77,17 @@ text ='''
 print(text)
 a = int(input("DefWak~#:"))
 def otv():
-	yes = {'yes','y', 'ye', }
-	no = {'no','n'}
+	yes = {'yes','y', 'ye','ys','Y','Yes','YES','YE','YS','Да','ДА','Д','д'}
+	no = {'no','n','NO','No','N','Нет','нет','Н','н','НЕ','не','НЕТ','Не','Неа','НЕА','nope','Nope','NOPE'}
 
-	otvet = input('Введите ответ:')
+	otvet = input('info~#:')
 	if otvet in yes:
 		os.system("python defwak.py")
 	elif otvet in no:
 		print("Прощайте!(Goodbye!)")
 		raise SystemExit
 	else:
-		print("Дайте пожалуйста ответ")
+		print("Дайте пожалуйста ответ(Please,give an answer)")
 		otv()
 def DefSec0():
 	print("Прощайте!(Goodbye!)")
@@ -186,7 +186,8 @@ def DefSec4():
 		print("Не найдено(Not found)")
 def DefSec99():
 	clean()
-	text = """
+	texta = """
+	Рус RU
 	Информация о программах:
 	1)DSpamers - DefineSpamers 
 	  Перевод:Определить спамер
@@ -195,8 +196,9 @@ def DefSec99():
 	  Перевод: Определить ДДосер
 	  на данный момент есть 3 разных ддосреа
 	3)PassGen - Password Generation
-	  Перевод: Генерация пароля по ключевым словам
-	  Оно генерирует пароли по словам,чем больше слов тем обширнее список паролей.
+	  Перевод: Генерация пароля
+	  Оно генерирует пароли по ключевым словам,
+	  чем больше слов тем обширнее список паролей.
 	  Список паролей сохраняется в txt формате
 	4)BackDoor - Черный вход 
 	  Нужен для удаленного контроля при помощи терминала.
@@ -205,11 +207,29 @@ def DefSec99():
 	5)SkanNet -Skaner Network
 	  Перевод:Сконирование сети
 	  Сканирует и отправляет пакеты на запрос МАК Адреса
-	  нужно быть в одной сети работает на Linux """
-	print(text)
-	print('Перейти в главное меню? \n Да/Нет | Yes/No')
+	  нужно быть в одной сети работает на Linux
+	  
+	Англ Eng
+	Information about the programs:
+	1)DSpamers - DefineSpamers
+	  Сurrently there are 3 versions of spammers
+	2)D-DDos - DefineDDos 
+	  at the moment there are 3 different ddos
+	3)PassGen - Password Generation
+	  It generates passwords for keywords,
+	  the more words, the more extensive the password list.
+	  Password list saved in txt format
+	4)BackDoor 
+	  Required for remote control using the terminal.
+	  consists of a client who must launch a mammoth (victim)
+	  and the server on which the hacker should work
+	5)SkanNet -Skaner Network
+	  Scans and sends packets to request a MAC address
+	  must be on the same network (linux)"""
+	print(texta)
+	print('Перейти в главное меню?(Go to the main menu?)\n Да/Нет | Yes/No')
 	otv()
-			
+	
 def DefSec97():
 	try:
 		
