@@ -1,4 +1,5 @@
 #code written and owned by DefSec16 or Alisher Zhussip
+#код написанный и принадлежащий DefSec16 или Алишер Жусiп
 import os, random, time
 def clean():
 	try:
