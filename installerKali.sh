@@ -1,17 +1,17 @@
-echo "======Начинается установка:python,php,wget,scapy======"
+echo -e "\e[32m======Начинается установка:python,php,wget,scapy======\e[0m"
 
 apt-get install python3 -y
 
-echo "======Установлен Python======"
+echo -e "\e[32m======Установлен Python======\e[0m"
 
 apt-get install wget -y
 
-echo "======Установлен Wget======"
+echo -e "\e[32m======Установлен Wget======\e[0m"
 
 apt-get install php -y
 
-echo "======Установлен PHP======"
+echo -e "\e[32m======Установлен PHP======\e[0m"
 
 apt-get install scapy-python3
 
-echo "======Установлен Scapy======"
+echo -e "\e[32m======Установлен Scapy======\e[0m"
