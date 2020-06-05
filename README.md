@@ -16,15 +16,12 @@
 ### Если pip выдёт ошибку либо надо его установить или обновить (pip install --upgrade pip)
 
 ### Если Linux 
-* apt-get install python3
-* apt-get install git
-* apt-get install colorama
-* apt-get install wget
 * apt-get install scapy-python3
 * git clone https://github.com/defsec16/DefWak
-* pip3 install -r requirements.txt
 * cd DefWak
 * chomd +x (всё)
+* bash installerKali.sh
+* pip3 install -r requirements.txt
 * python3 defwak.py
 
 ## Возможно будут другие паки или дополнения
@@ -48,13 +45,10 @@
 
 ## On Linux
 ### Download:
-* apt-get install python3
-* apt-get install git
-* apt-get install colorama
-* apt-get install wget
 * apt-get install scapy-python3
 * git clone https://github.com/defsec16/DefWak
-* pip3 install -r requirements.txt
 * cd DefWak
 * chomd +x (всё)
+* bash installerKali.sh
+* pip3 install -r requirements.txt
 * python3 defwak.py
