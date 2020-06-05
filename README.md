@@ -6,11 +6,8 @@
 ## на Termux 
 ### Установка:
 + $ apt update && apt upgrade -y
-+ $ pkg install git
-+ $ pkg install python
-+ $ pkg install wget
-+ $ pkg install php
 + $ git clone https://github.com/defsec16/DefWak
++ $ bash installerTermux.sh
 + $ pip3 install -r requirements.txt
 + $ cd DefWak 
 + $ chmod +x *
@@ -41,11 +38,8 @@
 ## On Termux
 ### Download:
 + $ apt update && apt upgrade -y
-+ $ pkg install git
-+ $ pkg install python
-+ $ pkg install wget
-+ $ pkg install php
 + $ git clone https://github.com/defsec16/DefWak
++ $ bash installerTermux.sh
 + $ pip3 install -r requirements.txt
 + $ cd DefWak 
 + $ chmod +x *
