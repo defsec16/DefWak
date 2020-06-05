@@ -263,7 +263,7 @@ def DefSec5():
 	os.chdir("SkanNet")
 	os.system("python3 skannet.py")
 def upmenu():
-	print("1-Termux  2-Linux
+	print("1-Termux  2-Linux")
 	ue = int(input("Что у вас?(What do you have?)"))
 	if ue ==1:
 	      print('Будет сделано(Will be done!)')
