@@ -6,18 +6,17 @@
 ## на Termux 
 ### Установка:
 + $ apt update && apt upgrade -y
-+ $ git clone https://github.com/defsec16/DefWak
-+ $ bash installerTermux.sh
-+ $ pip3 install -r requirements.txt
++ $ git clone https://github.com/defsec16/DefWak.git
 + $ cd DefWak 
 + $ chmod +x *
++ $ bash installerTermux.sh
++ $ pip3 install -r requirements.txt
 + $ python defwak.py
 
 ### Если pip выдёт ошибку либо надо его установить или обновить (pip install --upgrade pip)
 
 ### Если Linux 
-* apt-get install scapy-python3
-* git clone https://github.com/defsec16/DefWak
+* git clone https://github.com/defsec16/DefWak.git
 * cd DefWak
 * chomd +x (всё)
 * bash installerKali.sh
@@ -35,18 +34,17 @@
 ## On Termux
 ### Download:
 + $ apt update && apt upgrade -y
-+ $ git clone https://github.com/defsec16/DefWak
-+ $ bash installerTermux.sh
-+ $ pip3 install -r requirements.txt
++ $ git clone https://github.com/defsec16/DefWak.git
 + $ cd DefWak 
 + $ chmod +x *
++ $ bash installerTermux.sh
++ $ pip3 install -r requirements.txt
 + $ python defwak.py
 ### If pip issues an error or you need to install or update it (pip install --upgrade pip)
 
 ## On Linux
 ### Download:
-* apt-get install scapy-python3
-* git clone https://github.com/defsec16/DefWak
+* git clone https://github.com/defsec16/DefWak.git
 * cd DefWak
 * chomd +x (всё)
 * bash installerKali.sh
