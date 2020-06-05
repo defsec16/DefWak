@@ -68,7 +68,7 @@ text ='''
         [3]-passgen
 	[4]-backdoor[Скоро]
 	[5]-SkanNet
-	[6]-В плане
+	[6]-fishing[Скоро]
 	[7]-В плане
 	
 	[99]-Информация(Information)
