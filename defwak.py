@@ -162,9 +162,32 @@ def DefSec4():
 		print("Прощайте!(Goodbye!)")
 		raise SystemExit
 	def Backdoor1():
-		print("Скоро(soon)")
-		time.sleep(5)
-		DefSec4()
+		banner1 = '''
+			______            _       _                         __  
+	| ___ \          | |     | |                       /  | 
+	| |_/ / __ _  ___| | ____| | ___   ___  _ __ ______`| | 
+	| ___ \/ _` |/ __| |/ / _` |/ _ \ / _ \| '__|______|| | 
+	| |_/ / (_| | (__|   < (_| | (_) | (_) | |         _| |_
+	\____/ \__,_|\___|_|\_\__,_|\___/ \___/|_|         \___/
+                                                        
+                                                        
+		'''
+		print(banner1)
+		text1 = '''
+		[1]-server (Создать)(Create)
+		[2]-client (Создать)(Create)
+		
+		[99]-Назад в главное меню(back to main menu)
+		[0]-Выход(Exit)
+		'''
+		print(text1)
+		bdv1 = int(input('Backdoor~#:'))
+		def Backdoor0():
+			print("Прощайте!(Goodbye!)")
+			raise SystemExit
+		def Backdoor99():
+			DefSec4()
+		
 	def Backdoor2():
 		print("Скоро(soon)")
 		time.sleep(5)
