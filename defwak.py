@@ -59,6 +59,7 @@ else:
 print(banner)
 text ='''          
 					~Code by Alisher
+					version 1.4
 	  ~-{Main Menu}-~
          ~-{Главное Меню}-~
       Что вам будет угодно?(what do you want?)
@@ -74,7 +75,7 @@ text ='''
 	[98]-Удалить программу
 	[97]-Обновить
 	[0]-Выход(exit)
-        (select number)Выберите номер:
+       (select number)Выберите номер:
         '''
 print(text)
 a = int(input("DefWak~#:"))
