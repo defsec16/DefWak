@@ -1,7 +1,7 @@
 # Внимание:если вы установите эту утилиту, создатель не несет ответственности за ваши действия
 # RUS
 # DefSecBeta -это первый пак в котором пока что несколько программ
-# Version 1.1
+# Version 1.4
  (Сырая В РАЗРАБОТКЕ)
 ## на Termux 
 ### Установка:
@@ -30,7 +30,7 @@
 # Attention:if you install this utility, the creator is not responsible for your actions
 # ENG
 # DefSecBeta -this is the first pack in which so far several programs
-# Version 1.1
+# Version 1.4
 {don't done}
 
 ## On Termux
