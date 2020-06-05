@@ -1,12 +1,8 @@
-echo "======Начинается установка:python,git,php,wget======"
+echo "======Начинается установка:python,php,wget======"
 
 pkg install python -y
 
 echo "======Установлен Python======"
-
-pkg install git -y 
-
-echo "======Установлен Git======"
 
 pkg install wget -y
 
