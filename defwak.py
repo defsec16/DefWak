@@ -148,10 +148,9 @@ def DefSec4():
 							  '''
 	print(banner)
 	text = ''' 	
-	             -{Menu}-
-		    --{Меню}--
-	     [1]-backdoor{server} (Создать)(Create) {Скоро}
-	     [2]-backdoor{client} (Создать)(Create) {Скоро}
+	             
+	     [1]-backdoorV1
+	     [2]-backdoorV2
 	     [3]-Применение(application)
 	     
 	     [99]-Назад в главное меню(back to main menu)
