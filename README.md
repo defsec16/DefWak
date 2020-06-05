@@ -6,6 +6,7 @@
 ## на Termux 
 ### Установка:
 + $ apt update && apt upgrade -y
++ $ pkg install git
 + $ git clone https://github.com/defsec16/DefWak.git
 + $ cd DefWak 
 + $ chmod +x *
@@ -16,6 +17,7 @@
 ### Если pip выдёт ошибку либо надо его установить или обновить (pip install --upgrade pip)
 
 ### Если Linux 
+* apt-get install git
 * git clone https://github.com/defsec16/DefWak.git
 * cd DefWak
 * chomd +x (всё)
@@ -34,6 +36,7 @@
 ## On Termux
 ### Download:
 + $ apt update && apt upgrade -y
++ $ pkg install git
 + $ git clone https://github.com/defsec16/DefWak.git
 + $ cd DefWak 
 + $ chmod +x *
@@ -44,6 +47,7 @@
 
 ## On Linux
 ### Download:
+* apt-get install git
 * git clone https://github.com/defsec16/DefWak.git
 * cd DefWak
 * chomd +x (всё)
