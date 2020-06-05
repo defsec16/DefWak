@@ -1,12 +1,8 @@
-echo "======Начинается установка:python,git,php,wget,scapy======"
+echo "======Начинается установка:python,php,wget,scapy======"
 
 apt-get install python3 -y
 
 echo "======Установлен Python======"
-
-apt-get install git -y 
-
-echo "======Установлен Git======"
 
 apt-get install wget -y
 
