@@ -20,7 +20,7 @@
 * apt-get install git
 * git clone https://github.com/defsec16/DefWak.git
 * cd DefWak
-* chomd +x (всё)
+* chomd +x *
 * bash installerKali.sh
 * pip3 install -r requirements.txt
 * python3 defwak.py
@@ -50,7 +50,7 @@
 * apt-get install git
 * git clone https://github.com/defsec16/DefWak.git
 * cd DefWak
-* chomd +x (всё)
+* chomd +x *
 * bash installerKali.sh
 * pip3 install -r requirements.txt
 * python3 defwak.py
