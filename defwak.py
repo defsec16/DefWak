@@ -87,7 +87,7 @@ def otv():
 	if otvet in yes:
 		os.system("python defwak.py")
 	elif otvet in no:
-		print("Прощайте!(Goodbye!)")
+		print("\033[39mПрощайте!(Goodbye!)")
 		raise SystemExit
 	else:
 		print("Дайте пожалуйста ответ(Please,give an answer)")
@@ -100,7 +100,7 @@ def otv1():
 	if otvet in yes:
 		DefSec4()
 	elif otvet in no:
-		print("Прощайте!(Goodbye!)")
+		print("\033[39mПрощайте!(Goodbye!)")
 		raise SystemExit
 	else:
 		print("Дайте пожалуйста ответ(Please,give an answer)")
@@ -173,7 +173,7 @@ def DefSec4():
 	print(text)
 	back = int(input("\033[31mBackdoor~#:"))
 	def Backdoor0():
-		print("Прощайте!(Goodbye!)")
+		print("\033[39mПрощайте!(Goodbye!)")
 		raise SystemExit
 	def Backdoor1():
 		clean()
@@ -198,7 +198,7 @@ def DefSec4():
 		print(text1)
 		bdv1 = int(input('\033[31mBackdoor~#:'))
 		def Backdoor0():
-			print("Прощайте!(Goodbye!)")
+			print("\033[39mПрощайте!(Goodbye!)")
 			raise SystemExit
 		def Backdoor99():
 			DefSec4()
