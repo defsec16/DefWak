@@ -29,7 +29,7 @@ text = '''	\033[35m
       [0]-Выйти из программы(Exit the program)
       '''
 print(text)
-sp =int(input("\033[31mSpamers~#:"))   
+sp =int(input("\033[31mSpamers\033[37m~#:"))   
 def DSV1():
   os.system("python DSpamer.py")
 def DSV2():
