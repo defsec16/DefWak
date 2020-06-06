@@ -161,7 +161,6 @@ def DefSec4():
 							  '''
 	print(banner)
 	text = ''' 	\033[34m
-	             
 	     [1]-backdoorV1
 	     [2]-backdoorV2
 	     [3]-Применение(application)
@@ -722,7 +721,6 @@ P.s Given which OS and commands you need to enter	'''
 		os.chdir('USER-BD')
 		os.system('ls')
 	def Backdoor99():
-		import os
 		os.system("python defwak.py")
 	if back == 0:
 		Backdoor0()
@@ -790,6 +788,40 @@ def DefSec97():
 def DefSec5():
 	os.chdir("SkanNet")
 	os.system("python3 skannet.py")
+def DefSec6():
+	clean()
+	bannerf = '''\033[32m
+	______ _     _     _     _                 
+	| ___ \ |   (_)   | |   (_)                
+	| |_/ / |__  _ ___| |__  _ _ __   __ _ ___ 
+	|  __/| '_ \| / __| '_ \| | '_ \ / _` / __|
+	| |   | | | | \__ \ | | | | | | | (_| \__ \
+	\_|   |_| |_|_|___/_| |_|_|_| |_|\__, |___/
+					  __/ |    
+					 |___/     
+	'''
+	print(bannerf)
+	textf = '''
+\033[34m	[1]-
+	[2]-
+	
+\033[36m	[99]-Назад(Back)
+	[0]-Выход(Exit)
+	'''
+	print(textf)
+	ph = int(input("\033[31mPhish\033[39m~#:")
+	def phish99():
+		 os.system("python defwak.py")
+	def phish0():
+		print("\033[39mПрощайте!(Goodbye!)")
+		raise SystemExit 
+	
+	if ph ==99:
+		 phish99()
+	elif ph ==0:
+		 phish0()
+	else:
+		print('Ошибка:не найдено(Error:not found)') 
 def upmenu():
 	print("1-Termux  2-Linux")
 	ue = int(input("Что у вас?(What do you have?)"))
