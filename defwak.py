@@ -847,6 +847,8 @@ elif a ==4:
   DefSec4()
 elif a ==5:
   DefSec5()
+elif a ==6:
+  DefSec6()
 elif a ==99:
   DefSec99()
 elif a ==98:
