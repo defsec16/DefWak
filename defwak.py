@@ -92,6 +92,19 @@ def otv():
 	else:
 		print("Дайте пожалуйста ответ(Please,give an answer)")
 		otv()
+def otv1():
+	yes = {'yes','y', 'ye','ys','Y','Yes','YES','YE','YS','Да','ДА','Д','д','да','Yeah','YEAH','yeah'}
+	no = {'no','n','NO','No','N','Нет','нет','Н','н','НЕ','не','НЕТ','Не','Неа','НЕА','nope','Nope','NOPE'}
+
+	otvet = input('info~#:')
+	if otvet in yes:
+		DefSec4()
+	elif otvet in no:
+		print("Прощайте!(Goodbye!)")
+		raise SystemExit
+	else:
+		print("Дайте пожалуйста ответ(Please,give an answer)")
+		otv()
 def delete():
 	os.system('bash uninstall.sh')
 def DefSec0():
@@ -317,8 +330,8 @@ For everything to work, it’s necessary: when the client and server are both tu
 When everything went well you can control the system through the terminal
 P.s Given which OS and commands you need to enter	'''
 		print(text)
-		print('Перейти в главное меню?(Go to the main menu?)\n Да/Нет | Yes/No')
-		otv()
+		print('Перейти назад?(Go back?){Если нет,то выход}{If not, then exit}\n Да/Нет | Yes/No')
+		otv2()
 	def Backdoor99():
 		import os
 		os.system("python defwak.py")
@@ -378,7 +391,7 @@ Information about the programs:
   Scans and sends packets to request a MAC address
   must be on the same network (linux)"""
 	print(texta)
-	print('Перейти в главное меню?(Go to the main menu?)\n Да/Нет | Yes/No')
+	print('Перейти в главное меню?(Go to the main menu?){Если нет,то выход}{If not, then exit}\n Да/Нет | Yes/No')
 	otv()
 def DefSec97():
 	os.system('bash upgrade.sh')
