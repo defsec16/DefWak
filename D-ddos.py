@@ -5,7 +5,7 @@ def clean():
 	except:
 		os.system('cls')
 clean()
-bannerD = '''
+bannerD = '''\033[32m
 		88888888ba,              88888888ba,    88888888ba,      ,ad8888ba,     ad88888ba   
 		88      `"8b             88      `"8b   88      `"8b    d8"'    `"8b   d8"     "8b  
 		88        `8b            88        `8b  88        `8b  d8'        `8b  Y8,          
@@ -17,18 +17,18 @@ bannerD = '''
 											~Code by Alisher	    '''
 
 print(bannerD)
-text = '''                
+text = '''                \033[35m
 		       --{Menu}-
 		       --{Меню}--
-		[1]-DDOS (version 1)
+\033[34m		[1]-DDOS (version 1)
 		[2]-DDOS (version 2)
 		[3]-DDos-Attack-OVH (Coded by HardyTomas)
 		
-		[99]-назад в меню(back to main manu)
+	\033[36m	[99]-назад в меню(back to main manu)
 		[0]-Выйти из программы(Exit the program)
 			'''
 print(text)
-d = int(input('D-ddos~#:'))  
+d = int(input('\033[31mD-ddos\033[39m~#:'))  
 def ddosv1():
 	os.system('python Dddos.py')
 def ddosv2():
