@@ -731,7 +731,7 @@ P.s Given which OS and commands you need to enter	'''
 	elif back ==3:
 		Backdoor3()
 	elif back == 4:
-        Backdoor4()
+        	Backdoor4()
 	else:
 		print("Не найдено(Not found)")
 def DefSec99():
@@ -850,9 +850,9 @@ elif a ==5:
 elif a ==99:
   DefSec99()
 elif a ==98:
-	delete()
+  delete()
 elif a ==97:
-	DefSec97()
+  DefSec97()
 else:
 	print('Ошибка:не найдено(Error:not found)')
 	time.sleep(3)
