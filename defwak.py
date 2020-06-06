@@ -810,7 +810,7 @@ def DefSec6():
 	[0]-Выход(Exit)
 	'''
 	print(textf)
-	ph = int(input("\033[31mPhish\033[39m~#:")
+	ph = int(input("\033[31mPhish\033[39m~#:"))
 	def phish99():
 		 os.system("python defwak.py")
 	def phish0():
