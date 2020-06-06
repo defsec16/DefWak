@@ -320,7 +320,6 @@ my_backdoor.run() """)
 		\033[36m'''
 		print(text2)
         bdv2 = int(input('\033[31mBackdoor\033[39m~#:'))
-		
 		def Backdoor0():
 			print("\033[39mПрощайте!(Goodbye!)")
 			raise SystemExit
