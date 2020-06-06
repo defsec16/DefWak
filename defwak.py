@@ -58,25 +58,25 @@ else:
 
 print(banner)
 text ='''          
-					~Code by Alisher
+				\033[35m~Code by Alisher
 					version 1.4
 	  ~-{Main Menu}-~
          ~-{Главное Меню}-~
-      Что вам будет угодно?(what do you want?)
+      Что вам будет угодно?(what do you want?) \033[34m
         [1]-DSpamers
         [2]-D-ddos
         [3]-passgen
 	[4]-backdoor
 	[5]-SkanNet
 	[6]-fishing[Скоро]
-	[7]-В плане
-	
+	[7]-В плане \033[34m
+	\033[36m
 	[99]-Информация(Information)
 	[98]-Удалить программу
 	[97]-Обновить
 	[0]-Выход(exit)
        (select number)Выберите номер:
-        '''
+       \033[36m'''
 print(text)
 a = int(input("DefWak~#:"))
 def otv():
@@ -121,7 +121,7 @@ def DefSec4():
 	clean()
 	ban = random.randint(0,2)
 	if ban == 0:
-		  banner = '''
+		  banner = ''' \u001b[32m
 	    ______            _       _                   
 	    | ___ \          | |     | |                  
 	    | |_/ / __ _  ___| | ____| | ___   ___  _ __  
@@ -129,17 +129,17 @@ def DefSec4():
 	    | |_/ / (_| | (__|   < (_| | (_) | (_) | |    
 	    \____/ \__,_|\___|_|\_\__,_|\___/ \___/|_|  '''  
 	elif ban == 2:
-		   banner = '''                                                                                                    
-		  88888888ba                           88                 88                                           
-		  88      "8b                          88                 88                                           
-		  88      ,8P                          88                 88                                           
-		  88aaaaaa8P'  ,adPPYYba,   ,adPPYba,  88   ,d8   ,adPPYb,88   ,adPPYba,    ,adPPYba,   8b,dPPYba,     
-		  88""""""8b,  ""     `Y8  a8"     ""  88 ,a8"   a8"    `Y88  a8"     "8a  a8"     "8a  88P'   "Y8     
-		  88      `8b  ,adPPPPP88  8b          8888[     8b       88  8b       d8  8b       d8  88             
-		  88      a8P  88,    ,88  "8a,   ,aa  88`"Yba,  "8a,   ,d88  "8a,   ,a8"  "8a,   ,a8"  88             
-		  88888888P"   `"8bbdP"Y8   `"Ybbd8"'  88   `Y8a  `"8bbdP"Y8   `"YbbdP"'    `"YbbdP"'   88         '''   
+		   banner = '''   \u001b[32m                                                                                                 
+  88888888ba                           88                 88                                           
+  88      "8b                          88                 88                                           
+  88      ,8P                          88                 88                                           
+  88aaaaaa8P'  ,adPPYYba,   ,adPPYba,  88   ,d8   ,adPPYb,88   ,adPPYba,    ,adPPYba,   8b,dPPYba,     
+  88""""""8b,  ""     `Y8  a8"     ""  88 ,a8"   a8"    `Y88  a8"     "8a  a8"     "8a  88P'   "Y8     
+  88      `8b  ,adPPPPP88  8b          8888[     8b       88  8b       d8  8b       d8  88             
+  88      a8P  88,    ,88  "8a,   ,aa  88`"Yba,  "8a,   ,d88  "8a,   ,a8"  "8a,   ,a8"  88             
+  88888888P"   `"8bbdP"Y8   `"Ybbd8"'  88   `Y8a  `"8bbdP"Y8   `"YbbdP"'    `"YbbdP"'   88         '''   
 	else:
-		    banner = '''
+		    banner = ''' \u001b[32m
 		      ``             /\               /.
 		      :d.           :Nm.            .s+       
 		      /MN-         .m:/N-          `mmN       
@@ -160,7 +160,7 @@ def DefSec4():
 		      ''`                             ::           
 							  '''
 	print(banner)
-	text = ''' 	
+	text = ''' 	\033[34m
 	             
 	     [1]-backdoorV1
 	     [2]-backdoorV2
@@ -169,7 +169,7 @@ def DefSec4():
 	     
 	     [99]-Назад в главное меню(back to main menu)
 	     [0]-Выход(Exit)
-	     '''
+	\033[34m     '''
 	print(text)
 	back = int(input("Backdoor~#:"))
 	def Backdoor0():
@@ -177,7 +177,7 @@ def DefSec4():
 		raise SystemExit
 	def Backdoor1():
 		clean()
-		banner1 = '''
+		banner1 = ''' \u001b[32m
 	______            _       _                         __  
 	| ___ \          | |     | |                       /  | 
 	| |_/ / __ _  ___| | ____| | ___   ___  _ __ ______`| | 
@@ -188,13 +188,13 @@ def DefSec4():
                                                         
 		'''
 		print(banner1)
-		text1 = '''
+		text1 = ''' \033[34m
 		[1]-server (Создать)(Create)
 		[2]-client (Создать)(Create)
 		
 		[99]-Назад в главное меню(back to main menu)
 		[0]-Выход(Exit)
-		'''
+		\033[34m'''
 		print(text1)
 		bdv1 = int(input('Backdoor~#:'))
 		def Backdoor0():
