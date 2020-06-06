@@ -286,7 +286,7 @@ my_backdoor.run() """)
 		print("Скоро(soon)")
 		time.sleep(5)
 		DefSec4()
-	def Backdeoo3():
+	def Backdoor3():
 		text = ''' \033[33m
 		Рус-RU
 		И так я написал простенький бэкдор состоит он из:
