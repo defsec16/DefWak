@@ -32,6 +32,6 @@ fi
 
 clear
 
-echo "\033[32m[✔] Отлично готово! (all good!)[✔]"
+echo -e "\e[32m[✔] Отлично готово! (all good!)[✔]\e[0m"
 
 cd
