@@ -334,7 +334,10 @@ When everything went well you can control the system through the terminal
 P.s Given which OS and commands you need to enter	'''
 		print(text)
 		print('Перейти назад?(Go back?){Если нет,то выход}{If not, then exit}\n Да/Нет | Yes/No')
-		otv2()
+		otv1()
+	def Backdoor4():
+		os.chdir('USER-BD')
+		os.system('ls')
 	def Backdoor99():
 		import os
 		os.system("python defwak.py")
