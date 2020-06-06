@@ -78,7 +78,7 @@ text ='''
        (select number)Выберите номер:
        \033[36m'''
 print(text)
-a = int(input("DefWak~#:"))
+a = int(input("'\033[41m'+DefWak~#:"))
 def otv():
 	yes = {'yes','y', 'ye','ys','Y','Yes','YES','YE','YS','Да','ДА','Д','д','да','Yeah','YEAH','yeah'}
 	no = {'no','n','NO','No','N','Нет','нет','Н','н','НЕ','не','НЕТ','Не','Неа','НЕА','nope','Nope','NOPE'}
@@ -165,13 +165,13 @@ def DefSec4():
 	     [1]-backdoorV1
 	     [2]-backdoorV2
 	     [3]-Применение(application)
-	     [4]-Мои бэкдоры(My backdoors)
-	     
+	     [4]-Мои бэкдоры(My backdoors) \033[34m
+	     \033[36m
 	     [99]-Назад в главное меню(back to main menu)
 	     [0]-Выход(Exit)
-	\033[34m     '''
+	\033[36m     '''
 	print(text)
-	back = int(input("Backdoor~#:"))
+	back = int(input("'\033[41m'+Backdoor~#:"))
 	def Backdoor0():
 		print("Прощайте!(Goodbye!)")
 		raise SystemExit
@@ -190,13 +190,13 @@ def DefSec4():
 		print(banner1)
 		text1 = ''' \033[34m
 		[1]-server (Создать)(Create)
-		[2]-client (Создать)(Create)
-		
+		[2]-client (Создать)(Create)\033[34m
+		\033[36m
 		[99]-Назад в главное меню(back to main menu)
 		[0]-Выход(Exit)
-		\033[34m'''
+		\033[36m'''
 		print(text1)
-		bdv1 = int(input('Backdoor~#:'))
+		bdv1 = int(input('"\033[41m"+Backdoor~#:'))
 		def Backdoor0():
 			print("Прощайте!(Goodbye!)")
 			raise SystemExit
@@ -333,6 +333,7 @@ For everything to work, it’s necessary: when the client and server are both tu
 When everything went well you can control the system through the terminal
 P.s Given which OS and commands you need to enter	'''
 		print(text)
+		print('')
 		print('Перейти назад?(Go back?){Если нет,то выход}{If not, then exit}\n Да/Нет | Yes/No')
 		otv1()
 	def Backdoor4():
@@ -399,6 +400,7 @@ Information about the programs:
   Scans and sends packets to request a MAC address
   must be on the same network (linux)"""
 	print(texta)
+	print('')
 	print('Перейти в главное меню?(Go to the main menu?){Если нет,то выход}{If not, then exit}\n Да/Нет | Yes/No')
 	otv()
 def DefSec97():
