@@ -7,7 +7,7 @@ BASH_PATH="/bin/bash"
 TERMUX=false
 
 
-echo "[✔] Checking directories...(Проверка каталогов...)";
+echo "\033[32m[✔] Checking directories...(Проверка каталогов...)";
 
 if [ -d "$INSTALL_DIR" ]; then
 
@@ -21,17 +21,17 @@ if [ -d "$INSTALL_DIR" ]; then
 
     else
 
-        echo "[✘] If you want to uninstall you must remove previous installations [✘] ";
+        echo "\033[31m[✘] If you want to uninstall you must remove previous installations [✘] ";
 
-        echo "[✘] Если вы хотите удалить, вы должны удалить предыдущие установки [✘]"
+        echo "\033[31m[✘] Если вы хотите удалить, вы должны удалить предыдущие установки [✘]"
 
-        echo "[✘] Провал! (Failed!)[✘] ";
+        echo "\033[31m[✘] Провал! (Failed!)[✘] ";
 
 fi
 
 
 clear
 
-echo "[✔] Отлично готово! (all good!)[✔]"
+echo "\033[32m[✔] Отлично готово! (all good!)[✔]"
 
 cd
