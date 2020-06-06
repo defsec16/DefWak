@@ -21,9 +21,9 @@ if [ -d "$INSTALL_DIR" ]; then
 
     else
 
-        echo "\033[31m[✘] If you want to uninstall you must remove previous installations [✘] ";
+        echo "\033[31m[✘] If you want to uninstall you must remove previous installations\033[31m [✘] ";
 
-        echo "\033[31m[✘] Если вы хотите удалить, вы должны удалить предыдущие установки [✘]"
+        echo "\033[31m[✘] Если вы хотите удалить, вы должны удалить предыдущие установки \033[31m[✘]"
 
         echo "\033[31m[✘] Провал! (Failed!)[✘]\033[31m ";
 
@@ -32,6 +32,6 @@ fi
 
 clear
 
-echo "\033[32m[✔] Отлично готово! (all good!)[✔]"
+echo "'\033[32m'+[✔] Отлично готово! (all good!)[✔]"
 
 cd
