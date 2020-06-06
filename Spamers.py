@@ -5,7 +5,7 @@ def clean():
 	except:
 		os.system('cls')
 clean()
-banner = '''
+banner = '''\033[32m
  _____                                     
 /  ___|                                    
 \ `--. _ __   __ _ _ __ ___   ___ _ __ ___ 
