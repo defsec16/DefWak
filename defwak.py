@@ -58,7 +58,7 @@ else:
 
 print(banner)
 text ='''          
-				\033[35m~Code by Alisher
+				\033[35m	~Code by Alisher
 					version 1.4
 	  ~-{Main Menu}-~
          ~-{Главное Меню}-~
@@ -78,7 +78,7 @@ text ='''
        (select number)Выберите номер:
        \033[36m'''
 print(text)
-a = int(input("'\033[41m'+DefWak~#:"))
+a = int(input("\033[31mDefWak~#:"))
 def otv():
 	yes = {'yes','y', 'ye','ys','Y','Yes','YES','YE','YS','Да','ДА','Д','д','да','Yeah','YEAH','yeah'}
 	no = {'no','n','NO','No','N','Нет','нет','Н','н','НЕ','не','НЕТ','Не','Неа','НЕА','nope','Nope','NOPE'}
@@ -171,7 +171,7 @@ def DefSec4():
 	     [0]-Выход(Exit)
 	\033[36m     '''
 	print(text)
-	back = int(input("'\033[41m'+Backdoor~#:"))
+	back = int(input("\033[31mBackdoor~#:"))
 	def Backdoor0():
 		print("Прощайте!(Goodbye!)")
 		raise SystemExit
@@ -196,7 +196,7 @@ def DefSec4():
 		[0]-Выход(Exit)
 		\033[36m'''
 		print(text1)
-		bdv1 = int(input('"\033[41m"+Backdoor~#:'))
+		bdv1 = int(input('\033[31mBackdoor~#:'))
 		def Backdoor0():
 			print("Прощайте!(Goodbye!)")
 			raise SystemExit
