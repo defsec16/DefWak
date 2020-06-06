@@ -10,25 +10,26 @@ banner = '''
 /  ___|                                    
 \ `--. _ __   __ _ _ __ ___   ___ _ __ ___ 
  `--. \ '_ \ / _` | '_ ` _ \ / _ \ '__/ __|
-/\__/ / |_) | (_| | | | | | |  __/ |  \__ \
+/\__/ / |_) | (_| | | | | | |  __/ |  \__ 
+\
 \____/| .__/ \__,_|_| |_| |_|\___|_|  |___/
       | |                                  
       |_|                                  
 		'''
 
 print(banner)
-text = '''	  
+text = '''	\033[35m  
 	    -{Menu}-
-	   --{Меню}--
+	   --{Меню}-- \033[34m
       [1]-DSpamer(Version 1)
       [2]-DSpamer(Version 2)
       [3]-DSpamer(Version 3)
-      
+      \033[36m
       [99]-Назад в главное меню(back to main menu)
       [0]-Выйти из программы(Exit the program)
       '''
 print(text)
-sp =int(input("Spamers~#:"))   
+sp =int(input("\033[31mSpamers~#:"))   
 def DSV1():
   os.system("python DSpamer.py")
 def DSV2():
