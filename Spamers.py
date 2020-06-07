@@ -39,7 +39,7 @@ def DSV3():
 def DS99(): 
   os.system('python defwak.py')
 def DS0():
-  print('Прощайте!(Goodbye!)')
+  print('\033[32mПрощайте!(Goodbye!)')
   raise SystemExit 
 if sp == 1:
   DSV1()
@@ -52,4 +52,6 @@ elif sp == 0:
 elif sp ==99:
   DS99()
 else:
-	print('Ошибка:не найдено(Error:not found)')
+	print('\033[31mОшибка:не найдено(Error:not found)')
+	time.sleep(2)
+	os.system('python Spamers.py')
