@@ -1,0 +1,3 @@
+WMI
+pyscreeze
+pywin32
