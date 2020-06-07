@@ -366,7 +366,7 @@ my_backdoor.run() """)
 		def Backdoor99():
 			DefSec4()
 		def Backdoor3():
-			clear()
+			clean()
 			textb = ''' \033[33m
 Необходимо установить pyscreeze pywin32 WMI черeз pip
 (You need to install pyscreeze pywin32 WMI through pip)'''
