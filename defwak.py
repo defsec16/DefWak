@@ -376,7 +376,7 @@ my_backdoor.run() """)
 			print('Перейти назад?(Go back?){Если нет,то выход}{If not, then exit}\n Да/Нет | Yes/No')
 			otv1()
 		def Backdoor4():
-			print('')
+			print('pip3 install -r reqbak.txt')
 		def Backdoor1():
 			os.chdir('USER-BD')
 			ipu = input('\033[35mВведите свой IP')
@@ -726,6 +726,8 @@ while True:
 			Backdoor2()
 		elif bdv2 ==3:
 			Backdoor3()
+		elif bdv2 ==4:
+			Backdoor4()
 		elif bdv2 ==99:
 			Backdoor99()
 		elif bdv2 ==0:
