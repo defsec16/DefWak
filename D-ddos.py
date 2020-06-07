@@ -82,3 +82,5 @@ elif d ==0:
 	ddosExit()
 else:
 	print('\033[31mОшибка:не найдено(Error:not found)')
+	time.sleep(2)
+	os.system('python D-ddos.py')
