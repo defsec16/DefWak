@@ -1,4 +1,0 @@
-pyscreeze
-pywin32
-WMI
-надо установить для backdoor жертвы
