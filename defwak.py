@@ -65,7 +65,7 @@ text ='''
       Что вам будет угодно?(what do you want?) \033[34m
         [1]-DSpamers
         [2]-D-ddos
-        [3]-passgen
+        [3]-passwords
 	[4]-backdoor
 	[5]-SkanNet
 	[6]-fishing[Скоро]
@@ -116,7 +116,40 @@ def DefSec1():
 def DefSec2():
 	os.system('python D-ddos.py')
 def DefSec3():
-  	os.system('python PassGen.py')
+	clean()
+	bannerp = '''
+	______                                   _     
+	| ___ \                                 | |    
+	| |_/ /_ _ ___ _____      _____  _ __ __| |___ 
+	|  __/ _` / __/ __\ \ /\ / / _ \| '__/ _` / __|
+	| | | (_| \__ \__ \\ V  V / (_) | | | (_| \__ \
+	\_|  \__,_|___/___/ \_/\_/ \___/|_|  \__,_|___/
+                                     
+	'''
+	print(bannerp)
+	textp = ''' \033[34m
+	[1]-PassGen
+	[2]-Password-list
+	\033[36m
+	[99]-Назад в главное меню(back to main menu)
+	[0]-Выход(Exit)
+	'''
+	print(textp)
+	ps = int(input("\033[31mPass\033[39m~#:"))
+	if ps ==1:
+  		os.system('python PassGen.py')
+	elif ps ==2:
+		os.system('cd passwords')
+		os.system('ls')
+	elif ps ==99:
+		os.system('python defwak.py')
+	elif ps ==0:
+		print("\033[32mПрощайте!(Goodbye!)")
+		raise SystemExit
+	else:
+		print("\033[31mНе найдено(Not found)")
+		time.sleep(2)
+		DefSec3()
 def DefSec4():
 	clean()
 	ban = random.randint(0,2)
