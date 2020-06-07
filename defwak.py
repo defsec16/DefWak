@@ -930,6 +930,8 @@ elif a ==98:
   delete()
 elif a ==97:
   upmenu()
+elif a ==01:
+  DefSec01()
 else:
 	print('\033[31mОшибка:не найдено(Error:not found)')
 	time.sleep(3)
