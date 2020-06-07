@@ -74,7 +74,7 @@ text ='''
 	[99]-Информация(Information)
 	[98]-Удалить программу(Delete program)
 	[97]-Обновить(upgrade)
-	[01]-Об авторе(about the author)
+	[96]-Об авторе(about the author)
 	[0]-Выход(exit)
        (select number)Выберите номер:
        \033[36m'''
@@ -930,7 +930,7 @@ elif a ==98:
   delete()
 elif a ==97:
   upmenu()
-elif a ==01:
+elif a ==96:
   DefSec01()
 else:
 	print('\033[31mОшибка:не найдено(Error:not found)')
