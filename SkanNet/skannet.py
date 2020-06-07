@@ -1,6 +1,20 @@
+import os
 import scapy.all as scapy
 import argparse
+os.syatem('clear')
 banner = '''
+	|\          /\          /|
+	| \        /  \        / |
+	|  \      /    \      /  |
+	|   \    /      \    /   |
+	|    \  /        \  /    |
+	|_____\/__________\/_____|
+	      /\          /\
+	     /  \        /. \
+	    /    \      /    \
+	   /      \    /      \
+	  /        \  /        \
+	 /          \/          \
        python3 skannet.py --target (ip)  '''
 
 print(banner)
