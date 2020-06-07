@@ -139,7 +139,7 @@ def DefSec3():
 	if ps ==1:
   		os.system('python PassGen.py')
 	elif ps ==2:
-		os.system('cd passwords')
+		os.chdir('passwords')
 		os.system('ls')
 	elif ps ==99:
 		os.system('python defwak.py')
@@ -769,7 +769,7 @@ P.s Given which OS and commands you need to enter	'''
 		print('Перейти назад?(Go back?){Если нет,то выход}{If not, then exit}\n Да/Нет | Yes/No')
 		otv1()
 	def Backdoor4():
-		os.system('cd USER-BD')
+		os.chdir('USER-BD')
 		os.system('ls')
 	def Backdoor99():
 		os.system("python defwak.py")
