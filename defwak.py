@@ -727,7 +727,7 @@ P.s Given which OS and commands you need to enter	'''
 		print('Перейти назад?(Go back?){Если нет,то выход}{If not, then exit}\n Да/Нет | Yes/No')
 		otv1()
 	def Backdoor4():
-		os.chdir('USER-BD')
+		os.system('cd USER-BD')
 		os.system('ls')
 	def Backdoor99():
 		os.system("python defwak.py")
