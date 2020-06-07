@@ -1,5 +1,5 @@
 # Внимание:если вы установите эту утилиту, создатель не несет ответственности за ваши действия
-# RUS
+# Рус-RUS
 # DefWakBeta -это первый пак в котором пока что несколько программ
 # Version 1.4
  (Сырая В РАЗРАБОТКЕ)
@@ -28,7 +28,7 @@
 ## Возможно будут другие паки или дополнения
 
 # Attention:if you install this utility, the creator is not responsible for your actions
-# ENG
+# Англ-ENG
 # DefWakBeta -this is the first pack in which so far several programs
 # Version 1.4
 {don't done}
