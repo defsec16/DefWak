@@ -74,6 +74,7 @@ text ='''
 	[99]-Информация(Information)
 	[98]-Удалить программу(Delete program)
 	[97]-Обновить(upgrade)
+	[01]-Об авторе(about the author)
 	[0]-Выход(exit)
        (select number)Выберите номер:
        \033[36m'''
@@ -892,7 +893,23 @@ def upmenu():
 	    print('\033[31mОшибка:не найдено(Error:not found)')
 	    time.sleep(2)
 	    upmenu()
-	      
+def DefSec01():
+	clean()
+	text = ''' \033[33m
+	Рус-RUS
+	Автора зовут Алишер
+	Сообщество в ВК https://vk.com/defwak
+	Админ Группы в ВК https://vk.me/join/AJQ1d4R4Ixd2R9s4J_nhkMqj
+	
+	Англ-ENG
+	The author's name is Alisher
+	Community on Vk https://vk.com/defwak
+	Admin Groups in VK https://vk.me/join/AJQ1d4R4Ixd2R9s4J_nhkMqj
+	'''
+	print(text)
+	print('')
+	print('Перейти назад?(Go back?){Если нет,то выход}{If not, then exit}\n Да/Нет | Yes/No')
+	otv()
 if a ==0:
   DefSec0()
 elif a ==1:
