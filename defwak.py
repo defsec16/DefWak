@@ -870,7 +870,7 @@ def DefSec6():
 		DefSec6()
 def upmenu():
 	print("1-Termux  2-Linux")
-	ue = int(input("Что у вас?(What do you have?)"))
+	ue = int(input("Что у вас?(What do you have?):"))
 	if ue ==1:
 	    print('Будет сделано(Will be done!)')
 	    time.sleep(2)
