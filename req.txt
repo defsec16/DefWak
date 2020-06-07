@@ -18,3 +18,5 @@ cloudscraper
 pysocks
 colorama
 wget
+selenium
+toripchanger
