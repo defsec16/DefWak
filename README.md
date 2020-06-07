@@ -11,7 +11,7 @@
 + $ cd DefWak 
 + $ chmod +x *
 + $ bash installerTermux.sh
-+ $ pip3 install -r requirements.txt
++ $ pip3 install -r req.txt
 + $ python defwak.py
 
 ### Если pip выдёт ошибку либо надо его установить или обновить (pip install --upgrade pip)
@@ -22,7 +22,7 @@
 * cd DefWak
 * chomd +x *
 * bash installerKali.sh
-* pip3 install -r requirements.txt
+* pip3 install -r req.txt
 * python3 defwak.py
 
 ## Возможно будут другие паки или дополнения
@@ -41,7 +41,7 @@
 + $ cd DefWak 
 + $ chmod +x *
 + $ bash installerTermux.sh
-+ $ pip3 install -r requirements.txt
++ $ pip3 install -r req.txt
 + $ python defwak.py
 ### If pip issues an error or you need to install or update it (pip install --upgrade pip)
 
@@ -52,5 +52,5 @@
 * cd DefWak
 * chomd +x *
 * bash installerKali.sh
-* pip3 install -r requirements.txt
+* pip3 install -r req.txt
 * python3 defwak.py
