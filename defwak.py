@@ -300,6 +300,10 @@ my_backdoor.run() """)
 			Backdoor99()
 		elif bdv1 ==0:
 			Backdoor0()
+		else:
+			print("\033[31mНе найдено(Not found)")
+			time.sleep(2)
+			Backdoor1()
 	def Backdoor2():
 		clean()
 		banner2 = '''\u001b[32m
@@ -673,9 +677,9 @@ while True:
 		server_connect()
 			""")
 			a.close()
-			print('Готово!(Done!)')
-			print('Посмотрите в папке USER-BD')
-			print('Look in the USER-BD folder')
+			print('\033[32mГотово!(Done!)')
+			print('\033[32mПосмотрите в папке USER-BD')
+			print('\033[32mLook in the USER-BD folder')
 		if bdv2 ==1:
 			Backdoor1()
 		elif bdv2 ==2:
@@ -686,7 +690,12 @@ while True:
 			Backdoor99()
 		elif bdv2 ==0:
 			Backdoor0()
+		else:
+			print("\033[31mНе найдено(Not found)")
+			time.sleep(2)
+			Backdoor2()
 	def Backdoor3():
+		clean()
 		text = ''' \033[33m
 Рус-RU
 И так я написал простенький бэкдор состоит он из:
