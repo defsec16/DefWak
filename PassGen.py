@@ -1,6 +1,6 @@
 import os
 os.system('clear')
-bannerP = '''
+bannerP = ''' \033[32m
     ______             _____            
     | ___ \           |  __ \           
     | |_/ /_ _ ___ ___| |  \/ ___ _ __  
@@ -48,14 +48,14 @@ class PassGen:
 
     def get_input(self):
       while self.is_alive:
-          print('Введите ключевое слово это может быть: имя, пароль, номер, символ, день рождения (мм-дд-гггг) или что-то другое...')
-          print('Для генерации списка паролей введите: startgen ')
+          print('\033[34mВведите ключевое слово это может быть: имя, пароль, номер, символ, день рождения (мм-дд-гггг) или что-то другое...')
+          print('\033[34mДля генерации списка паролей введите:\033[36m startgen ')
           print('')
-          print('Enter a keyword, it can be: name, password, number, symbol, birthday (mm-dd-yyyy) or something else ...')
-          print('To generate a list of passwords, enter: startgen')
+          print('\033[34mEnter a keyword, it can be: name, password, number, symbol, birthday (mm-dd-yyyy) or something else ...')
+          print('\033[34mTo generate a list of passwords, enter:\033[36m startgen')
 
           try:
-            user_input = str(input('\nPassGen~#: ')).strip()
+            user_input = str(input('\n\033[31mPassGen\033[39m~#: ')).strip()
           except:
             self.is_alive = False
 
@@ -103,7 +103,7 @@ class PassGen:
             self.password_list.append(data, front=True)
 
     def generate(self):
-        print('Создание списка, это может занять некоторое время... ')
+        print('\033[32mСоздание списка, это может занять некоторое время... ')
         for suffix in self.suffix:
 
             for word in self.words:
@@ -178,7 +178,7 @@ class PassGen:
         with open('passwords.txt', 'wt', encoding='utf-8') as output_file:
 
             print(
-                f'Создан список {len(self.password_list)} пароли ...')
+                f'\033[32mСоздан список {len(self.password_list)} пароли ...')
 
             for pwd in self.password_list:
                 output_file.write(f'{pwd}\n')
