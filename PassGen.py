@@ -50,6 +50,7 @@ class PassGen:
       while self.is_alive:
           print('Введите ключевое слово это может быть: имя, пароль, номер, символ, день рождения (мм-дд-гггг) или что-то другое...')
           print('Для генерации списка паролей введите: startgen ')
+          print('')
           print('Enter a keyword, it can be: name, password, number, symbol, birthday (mm-dd-yyyy) or something else ...')
           print('To generate a list of passwords, enter: startgen')
 
