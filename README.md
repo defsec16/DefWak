@@ -2,7 +2,7 @@
 # Рус-RUS
 # DefWakFrameWork
 # Version 1.4
- (Сырая В РАЗРАБОТКЕ)
+ (В РАЗРАБОТКЕ)
 ## на Termux 
 ### Установка:
 + $ apt update && apt upgrade -y
