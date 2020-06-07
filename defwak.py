@@ -353,6 +353,7 @@ my_backdoor.run() """)
 		[1]-server (Создать)(Create)
 		[2]-client (Создать)(Create)\033[34m
 		[3]-Примечание к бэкдору(Backdoor note)
+		[4]-Установить модули из [3](Install modules from [3])
 		\033[36m
 		[99]-Назад(back)
 		[0]-Выход(Exit)
@@ -365,11 +366,17 @@ my_backdoor.run() """)
 		def Backdoor99():
 			DefSec4()
 		def Backdoor3():
+			clear()
 			textb = ''' \033[33m
 Необходимо установить pyscreeze pywin32 WMI черeз pip
 (You need to install pyscreeze pywin32 WMI through pip)'''
 			
 			print(textb)
+			print('')
+			print('Перейти назад?(Go back?){Если нет,то выход}{If not, then exit}\n Да/Нет | Yes/No')
+			otv1()
+		def Backdoor4():
+			print('')
 		def Backdoor1():
 			os.chdir('USER-BD')
 			ipu = input('\033[35mВведите свой IP')
