@@ -45,4 +45,4 @@ chmod +x *
 clear
 
 echo -e "\e[32m[✔] Отлично готово! (all good!)[✔]\e[0m"
-echo -e "\e[34mВпишите команду <cd>(Enter the <cd> command)\e[0"
+echo -e "\e[33mВпишите команду <cd>(Enter the <cd> command)\e[0"
