@@ -34,7 +34,7 @@ def ddosv1():
 def ddosv2():
 	os.system('python ddos-attack.py')
 def ddosv3():
-	text = """
+	text = """ \033[33m
 	Теперь пишем на каком порту сайт
 Если 80:
 Выберите 1
@@ -57,15 +57,15 @@ Do you want proxy/socks mode? Answer 'y' to enable it: Здесь пишем х�
 Жмём Enter (Ввод) и у нас запускается атака """
 	
 	print(text)
-	p = int(input("Выберите номер 1 или 2:"))
+	p = int(input("\033[35mВыберите номер 1 или 2:"))
 	if p == 2:
 		os.system("python 443port.py") 
 	elif p ==1:
 		os.system("python 80port.py")
 	else:
-		print("Не найдено")
+		print("\033[31mНе найдено")
 def ddosExit():
-	print('Прощайте!(Goodbye!)')
+	print('\033[32mПрощайте!(Goodbye!)')
 	raise SystemExit
 def ddosExit99():
 	os.system('python defwak.py')
@@ -81,4 +81,4 @@ elif d ==99:
 elif d ==0:
 	ddosExit()
 else:
-	print('Ошибка:не найдено(Error:not found)')
+	print('\033[31mОшибка:не найдено(Error:not found)')
