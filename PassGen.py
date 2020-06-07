@@ -10,7 +10,7 @@ bannerP = ''' \033[32m
     ==========Code by Alisher===========
                 '''
 print(bannerP)
-
+os.chdir("passwords")
 class List:
 
     def __init__(self):
