@@ -11,7 +11,7 @@ def play():
 				frames.append(d.readlines())
 		for i in range(repeat):
 			for frame in frames:
-				print( \u001b[32m"".join(frame))
+				print("".join(frame))
 				time.sleep(delay)
 				clean()
 	animator(gif,delay=0.3,repeat=5)
