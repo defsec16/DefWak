@@ -34,12 +34,11 @@ fi
 clear
 
 echo -e "\e[32m[✔] Отлично готово! (all good!)[✔]\e[0m"
-echo -e "\e[32mВсё успешно установлено идет запуск...\e[0m"
-echo -e "\e[32mEverything is successfully installed, it is starting...\e[0m"
+
 cd
 
 cd
 git clone --depth=1 https://github.com/defsec16/DefWak.git
 cd DefWak
 chmod +x *
-python defwak.py
+
