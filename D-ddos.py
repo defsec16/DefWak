@@ -1,4 +1,4 @@
-import os
+import os,time
 def clean():
 	try:
 		os.system('clear')
