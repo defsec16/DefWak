@@ -894,14 +894,14 @@ def DefSec6():
 		time.sleep(2)
 		DefSec6()
 def upmenu():
-	print("1-Termux  2-Linux")
-	ue = int(input("Что у вас?(What do you have?):"))
+	print("\033[31m1-\033[32mTermux  \033[31m2-\033[32mLinux")
+	ue = int(input("\033[33mЧто у вас?(What do you have?):"))
 	if ue ==1:
-	    print('Будет сделано(Will be done!)')
+	    print('\033[32mБудет сделано(Will be done!)')
 	    time.sleep(2)
 	    os.system('bash upgrade.sh')
 	elif ue ==2:
-	    print('Будет сделано(Will be done!)')
+	    print('\033[32mБудет сделано(Will be done!)')
 	    time.sleep(2)
 	    os.system('bash upgradeLinux.sh')
 	else:
