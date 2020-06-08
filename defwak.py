@@ -22,6 +22,7 @@ def clean():
 		os.system('cls')
 clean()
 play()
+
 ban = random.randint(0,3)
 if ban ==0:
   banner =''' \u001b[32m
