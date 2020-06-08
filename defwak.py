@@ -130,7 +130,8 @@ def otv4():
 		pyth= input('Введи название без .py:(Enter a name without .py:):')
 		os.system('python '+ str(pyth)+'.py')
 	elif otvet in no:
-		Backdoor21()
+		print("\033[32mПрощайте!(Goodbye!)")
+		raise SystemExit
 	else:
 		print("\033[33mДайте пожалуйста ответ(Please,give an answer)")
 		otv4()
@@ -801,7 +802,7 @@ P.s Given which OS and commands you need to enter	'''
 		print('Вот что найдено:(Here are the results):')
 		os.chdir('USER-BD')
 		os.system('ls')
-		print('Запустить бэкдор?Если нет то назад(Launch a backdoor?If not, then back)')
+		print('Запустить бэкдор?Если нет то выход(Launch a backdoor?If not, then exit)\n Да/Нет | Yes/No')
 		otv4()
 	def Backdoor99():
 		os.system("python defwak.py")
