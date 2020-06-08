@@ -77,7 +77,7 @@ text ='''
 					version 1.4
 	  ~-{Main Menu}-~
          ~-{Главное Меню}-~
-      Что вам будет угодно?(what do you want?) \033[34m
+      \033[39mЧто вам будет угодно?(what do you want?) \033[34m
         [1]-DSpamers
         [2]-D-ddos
         [3]-passwords
@@ -91,7 +91,7 @@ text ='''
 	[97]-Обновить(upgrade)
 	[96]-Об авторе(about the author)
 	[0]-Выход(exit)
-       (select number)Выберите номер:
+       \033[39m(select number)Выберите номер:
        \033[36m'''
 print(text)
 a = int(input("\033[31mDefWak\033[39m~#:"))
