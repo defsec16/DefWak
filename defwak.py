@@ -3,7 +3,7 @@
 import os, random, time
 def play():
 	os.chdir('gif')
-	gif = [ \u001b[32m"1.txt","2.txt","3.txt","4.txt","5.txt","6.txt","7.txt","8.txt","9.txt","10.txt","11.txt","12.txt","13.txt","14.txt"] #14
+	gif = [ "1.txt","2.txt","3.txt","4.txt","5.txt","6.txt","7.txt","8.txt","9.txt","10.txt","11.txt","12.txt","13.txt","14.txt"] #14
 	def animator(gif,delay=1,repeat=1):
 		frames = []
 		for wak in gif:
@@ -11,7 +11,7 @@ def play():
 				frames.append(d.readlines())
 		for i in range(repeat):
 			for frame in frames:
-				print("".join(frame))
+				print( \u001b[32m"".join(frame))
 				time.sleep(delay)
 				clean()
 	animator(gif,delay=0.3,repeat=5)
