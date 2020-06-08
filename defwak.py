@@ -77,17 +77,17 @@ text ='''
 					version 1.5
 	  ~-{Main Menu}-~
          ~-{Главное Меню}-~
-      \033[39mЧто вам будет угодно?(what do you want?) \033[34m
-        [1]-DSpamers
-        [2]-D-ddos
-        [3]-passwords
-	[4]-backdoor
-	[5]-SkanNet
-	[6]-fishing[Скоро]
-	[7]-В плане \033[34m
+      \033[39mЧто вам будет угодно?(what do you want?) 
+        \033[36m[1]\033[34m-DSpamers
+        \033[36m[2]\033[34m-D-ddos
+        \033[36m[3]\033[34m-passwords
+	\033[36m[4]\033[34m-backdoor
+	\033[36m[5]\033[34m-SkanNet
+	\033[36m[6]\033[34m-fishing[Скоро]
+	\033[36m[7]\033[34m-В плане \033[34m
 	\033[36m
 	[99]-\033[33mИнформация(Information)
-	[98]-Удалить программу(Delete program)
+	\033[36m[98]-Удалить программу(Delete program)
 	[97]-Обновить(upgrade)
 	[96]-Об авторе(about the author)
 	[0]-Выход(exit)
