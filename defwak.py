@@ -121,6 +121,19 @@ def otv1():
 	else:
 		print("\033[33mДайте пожалуйста ответ(Please,give an answer)")
 		otv()
+def otv4():
+	yes = {'yes','y', 'ye','ys','Y','Yes','YES','YE','YS','Да','ДА','Д','д','да','Yeah','YEAH','yeah'}
+	no = {'no','n','NO','No','N','Нет','нет','Н','н','НЕ','не','НЕТ','Не','Неа','НЕА','nope','Nope','NOPE'}
+
+	otvet = input('\033[31minfo\033[39m~#:')
+	if otvet in yes:
+		pyth= input('Введи название без .py:(Enter a name without .py:):')
+		os.system('python '+ str(pyth)+'.py')
+	elif otvet in no:
+		Backdoor21()
+	else:
+		print("\033[33mДайте пожалуйста ответ(Please,give an answer)")
+		otv4()
 def delete():
 	os.system('bash uninstall.sh')
 def DefSec0():
@@ -788,8 +801,8 @@ P.s Given which OS and commands you need to enter	'''
 		print('Вот что найдено:(Here are the results):')
 		os.chdir('USER-BD')
 		os.system('ls')
-		print('Запустить бэкдор?(Launch a backdoor?)')
-		
+		print('Запустить бэкдор?Если нет то назад(Launch a backdoor?If not, then back)')
+		otv4()
 	def Backdoor99():
 		os.system("python defwak.py")
 	if back == 0:
