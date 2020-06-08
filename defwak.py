@@ -74,7 +74,7 @@ else:
 print(banner)
 text ='''          
 				\033[35m	~Code by Alisher
-					version 1.4
+					version 1.5
 	  ~-{Main Menu}-~
          ~-{Главное Меню}-~
       \033[39mЧто вам будет угодно?(what do you want?) \033[34m
