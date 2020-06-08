@@ -353,7 +353,7 @@ my_backdoor.run() """)
 			print("\033[31mНе найдено(Not found)")
 			time.sleep(2)
 			Backdoor1()
-	def Backdoor2():
+	def Backdoor21():
 		clean()
 		banner2 = '''\u001b[32m
 	______            _       _                         _____ 
@@ -751,7 +751,7 @@ while True:
 		else:
 			print("\033[31mНе найдено(Not found)")
 			time.sleep(2)
-			Backdoor2()
+			Backdoor21()
 	def Backdoor3():
 		clean()
 		text = ''' \033[33m
@@ -796,7 +796,7 @@ P.s Given which OS and commands you need to enter	'''
 	elif back ==1:
 		Backdoor1()
 	elif back ==2:
-		Backdoor2()
+		Backdoor21()
 	elif back ==3:
 		Backdoor3()
 	elif back == 4:
