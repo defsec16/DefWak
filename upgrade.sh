@@ -31,14 +31,10 @@ if [ -d "$INSTALL_DIR" ]; then
 fi
 
 
-clear
-
-echo -e "\e[32m[✔] Отлично готово! (all good!)[✔]\e[0m"
-
-cd
-
 cd
 git clone --depth=1 https://github.com/defsec16/DefWak.git
 cd DefWak
 chmod +x *
-
+clear
+echo -e "\e[32m[✔] Отлично готово! (all good!)[✔]\e[0m"
+echo -e "\e[33mВпишите команду <cd>(Enter the <cd> command)\e[0"
