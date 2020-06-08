@@ -1,7 +1,7 @@
 # Внимание:если вы установите эту утилиту, создатель не несет ответственности за ваши действия
 # Рус-RUS
 # DefWakFrameWork
-# Version 1.4
+# Версия 1.5
  (В РАЗРАБОТКЕ)
 ## на Termux 
 ### Установка:
@@ -28,7 +28,7 @@
 # Attention:if you install this utility, the creator is not responsible for your actions
 # Англ-ENG
 # DefWakFrameWork
-# Version 1.4
+# Version 1.5
 {don't done}
 
 ## On Termux
