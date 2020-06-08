@@ -885,8 +885,6 @@ Information about the programs:
 	print('')
 	print('Перейти в главное меню?(Go to the main menu?){Если нет,то выход}{If not, then exit}\n Да/Нет | Yes/No')
 	otv()
-def DefSec97():
-	os.system('bash upgrade.sh')
 def DefSec5():
 	os.chdir("SkanNet")
 	os.system("python3 skannet.py")
