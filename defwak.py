@@ -86,7 +86,7 @@ text ='''
 	[6]-fishing[Скоро]
 	[7]-В плане \033[34m
 	\033[36m
-	[99]-Информация(Information)
+	[99]-\033[33mИнформация(Information)
 	[98]-Удалить программу(Delete program)
 	[97]-Обновить(upgrade)
 	[96]-Об авторе(about the author)
