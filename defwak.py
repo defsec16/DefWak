@@ -1,27 +1,13 @@
 #code written and owned by DefSec16 or Alisher Zhussip
 #код написанный и принадлежащий DefSec16 или Алишер Жусiп
 import os, random, time
-def play():
-	os.chdir('gif')
-	gif = [ "1.txt","2.txt","3.txt","4.txt","5.txt","6.txt","7.txt","8.txt","9.txt","10.txt","11.txt","12.txt","13.txt","14.txt"] #14
-	def animator(gif,delay=1,repeat=1):
-		frames = []
-		for wak in gif:
-			with open(wak,"r",encoding="utf-8") as d:
-				frames.append(d.readlines())
-		for i in range(repeat):
-			for frame in frames:
-				print("".join(frame))
-				time.sleep(delay)
-				clean()
-	animator(gif,delay=0.3,repeat=5)
 def clean():
 	try:
 		os.system('clear')
 	except:
 		os.system('cls')
 clean()
-play()
+
 
 ban = random.randint(0,3)
 if ban ==0:
