@@ -16,10 +16,6 @@ if [ -d "$INSTALL_DIR" ]; then
 
         rm "$BIN_DIR/DefWak*"
 
-        sudo rm -rf "$INSTALL_DIR"
-
-        sudo rm "$BIN_DIR/DefWak*"
-
     else
 
         echo "[✘] If you want to uninstall you must remove previous installations ";
