@@ -12,4 +12,4 @@ def animator(gif,delay=1,repeat=10000):
       print("".join(frame))
       time.sleep(delay)
       os.system('clear')
-animator(gif,delay=0.2,repeat=5)
+animator(gif,delay=0.1,repeat=5)
