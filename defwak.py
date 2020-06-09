@@ -21,9 +21,10 @@ def play():
 				time.sleep(delay)
 				clean()
 	animator(gif,delay=0.5,repeat=5)
-
+	
 clean()
 play()
+
 clean()
 
 ban = random.randint(0,3)
