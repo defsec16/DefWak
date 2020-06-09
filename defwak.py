@@ -25,7 +25,7 @@ def play():
 clean()
 play()
 clean()
-os.chdir('')
+os.chdir('home/DefWak')
 ban = random.randint(0,3)
 if ban ==0:
   banner =''' \u001b[32m
