@@ -12,7 +12,7 @@
 + $ chmod +x *
 + $ bash installerTermux.sh
 + $ pip3 install -r req.txt
-+ $ python define.py
++ $ python start.py
 
 ### Если pip выдёт ошибку либо надо его установить или обновить (pip install --upgrade pip)
 
@@ -23,7 +23,7 @@
 * chomd +x *
 * bash installerKali.sh
 * pip3 install -r req.txt
-* python3 define.py
+* python3 start.py
 
 # Attention:if you install this utility, the creator is not responsible for your actions
 # Англ-ENG
@@ -40,7 +40,7 @@
 + $ chmod +x *
 + $ bash installerTermux.sh
 + $ pip3 install -r req.txt
-+ $ python define.py
++ $ python start.py
 ### If pip issues an error or you need to install or update it (pip install --upgrade pip)
 
 ## On Linux
@@ -51,4 +51,4 @@
 * chomd +x *
 * bash installerKali.sh
 * pip3 install -r req.txt
-* python3 define.py
+* python3 start.py
