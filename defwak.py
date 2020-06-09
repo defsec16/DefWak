@@ -7,7 +7,7 @@ def clean():
 	except:
 		os.system('cls')
 
-os.system('zagruzka.py')
+os.system('python zagruzka.py')
 
 clean()
 ban = random.randint(0,3)
