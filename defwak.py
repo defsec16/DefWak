@@ -954,17 +954,22 @@ def viruses():
 	   $$$/    $$ |$$ |      $$    $$/ /     $$/ $$       |/     $$/ 
 	    $/     $$/ $$/        $$$$$$/  $$$$$$$/   $$$$$$$/ $$$$$$$/  
                                                                  '''
-print(banner)
-text = '''
-          \033[36m[1]-
-          \033[36m[2]-
-          \033[36m[3]-
-	  
-          \033[36m[99]-\033[33mНазад(back)
-          \033[36m[0]-\033[33mВыход(Exit)
-'''
-print(text)
-vir = int(input('\033[31mVirus\033[39m~#:'))
+	print(banner)
+	text = '''
+	  \033[36m[1]-
+	  \033[36m[2]-
+	  \033[36m[3]-
+
+	  \033[36m[99]-\033[33mНазад(back)
+	  \033[36m[0]-\033[33mВыход(Exit)
+	'''
+	print(text)
+	vir = int(input('\033[31mVirus\033[39m~#:'))
+	def virus99():
+		os.system("python defwak.py")
+	def virus0():
+		print('\033[31mОшибка:не найдено(Error:not found)')
+		raise SystemExit
 if a ==0:
   DefSec0()
 elif a ==1:
