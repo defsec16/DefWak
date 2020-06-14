@@ -78,5 +78,6 @@ banner2 = """
                                       ..........          
                                    """        
 print(banner2)
+sleep(2)
 os.system('python zagruzka.py')
 os.system('python defwak.py')
