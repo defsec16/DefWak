@@ -31,14 +31,12 @@ banner = """
                             .;c:. ..               .. .co:...                                 
                              ,c;.                     .co:.                                   
                             '::;'.                   .;ool,.                                  
-                            .;:::,                   ,lool,                                   
-                             ,llll;..             ..;looo:.                                   
+                            .;:::,                   ,lool,                                                                  
                              .;loool;.           .,cllll:.                                    
                                ,llloc;,..',,''...,c::cc,.                                     
                                 .:clllllllllollcclllc;'                                       
                                  .'coooolclc:cllcoo:..                                        
                                    .;lollool:cllloc'                                          
-                                    .,looooolllloc.                                           
                                      .:oooooooll;.                                            
                                       ..........          
                                    """        
