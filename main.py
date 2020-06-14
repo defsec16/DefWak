@@ -46,7 +46,7 @@ print('\033[32m')
 banner2 = """                                                                                                             
                                                                  
                                       \033[32m                                          
-                                     .,,,,,,,,,,,.                                            
+                                      .,,,,,,,,,,,.                                            
                                   .',:odddodddoolc;'.                                         
                                .'cllllloollodoooooolc:;.                                      
                              .':llllclc:clcloolccloolcc:'.                                    
@@ -65,17 +65,16 @@ banner2 = """
                         ..,;cc;.  ;oc;,;:;;cl:;:lolo:...cccc;.                                
                           .;:ccc,.coc:'.....'...'lolc..;c;;c;.                                
                           .',::c;';c;..          .'::'.:l:::,.                                
-                            .;c:. ..               .. .co:...                                 
-                             ,c;.      Def-Wak         .co:.                                   
+                            .;c:. ..   Def-Wak    .. .co:...                                 
+                             ,c;.                     .co:.                                   
                             '::;'.                   .;ool,.                                  
-                            .;:::,                   ,lool,                                                                  
-                             .;loool;.           .,cllll:.                                    
+                            .;:::,                   ,lool,                                                                       .;loool;.           .,cllll:.                                    
                                ,llloc;,..',,''...,c::cc,.                                     
                                 .:clllllllllollcclllc;'                                       
                                  .'coooolclc:cllcoo:..                                        
                                    .;lollool:cllloc'                                          
                                      .:oooooooll;.                                            
-                                      ..........          
+                                      ..........             
                                    """        
 print(banner2)
 sleep(4)
