@@ -943,7 +943,7 @@ def DefSec01():
 	print('Перейти назад?(Go back?){Если нет,то выход}{If not, then exit}\n Да/Нет | Yes/No')
 	otv()
 def viruses():
-	banner = '''
+	banner = '''\033[32m
 	 __     __  __                                                   
 	/  |   /  |/  |                                                  
 	$$ |   $$ |$$/   ______   __    __   _______   ______    _______ 
@@ -968,8 +968,16 @@ def viruses():
 	def virus99():
 		os.system("python defwak.py")
 	def virus0():
-		print('\033[31mОшибка:не найдено(Error:not found)')
+		print("\033[32mПрощайте!(Goodbye!)")
 		raise SystemExit
+	if vir ==0:
+		virus0()
+	elif vir ==99:
+		virus99()
+	else:
+		print('\033[31mОшибка:не найдено(Error:not found)')
+		time.sleep(2)
+		viruses()
 if a ==0:
   DefSec0()
 elif a ==1:
