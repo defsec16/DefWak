@@ -31,7 +31,7 @@ banner = """
                             .;c:. ..               .. .co:...                                 
                              ,c;.                     .co:.                                   
                             '::;'.                   .;ool,.                                  
-                            .;:::,                   ,lool,                                                                          .;loool;.           .,cllll:.                                    
+                            .;:::,                   ,lool,                                                                        .;loool;.           .,cllll:.                                    
                                ,llloc;,..',,''...,c::cc,.                                     
                                 .:clllllllllollcclllc;'                                       
                                  .'coooolclc:cllcoo:..                                        
