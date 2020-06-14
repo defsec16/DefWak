@@ -943,6 +943,7 @@ def DefSec01():
 	print('Перейти назад?(Go back?){Если нет,то выход}{If not, then exit}\n Да/Нет | Yes/No')
 	otv()
 def viruses():
+	clean()
 	banner = '''\033[32m
 	 __     __  __                                                   
 	/  |   /  |/  |                                                  
