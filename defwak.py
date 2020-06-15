@@ -173,6 +173,7 @@ def DefSec3():
 	elif ps ==2:
 		os.chdir('passwords')
 		os.system('ls')
+		os.system('cd passwords')
 	elif ps ==99:
 		os.system('python defwak.py')
 	elif ps ==0:
