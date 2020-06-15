@@ -173,7 +173,6 @@ def DefSec3():
 	elif ps ==2:
 		os.chdir('passwords')
 		os.system('ls')
-		os.system('cd passwords')
 	elif ps ==99:
 		os.system('python defwak.py')
 	elif ps ==0:
@@ -805,7 +804,6 @@ P.s Given which OS and commands you need to enter	'''
 		print('\033[32mВот что найдено(Here are the results):')
 		os.chdir('USER-BD')
 		os.system('ls')
-		os.system('cd USER-BD')
 		print('\033[33mЗапустить бэкдор?Если нет то выход(Launch a backdoor?If not, then exit)\n Да/Нет | Yes/No')
 		otv4()
 	def Backdoor99():
@@ -1033,7 +1031,6 @@ def viruses():
 			print('\033[32mВот что найдено(Here are the results):')
 			os.chdir('batniki')
 			os.system('ls')
-			os.system('cd batniki')
 		if bat ==1:
 			bat1()
 		elif bat==2:
