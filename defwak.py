@@ -986,7 +986,7 @@ def viruses():
 	      Какой батник создать?
 		\033[36m[1]-\033[34mВыключается компьютер
 		\033[36m[2]-\033[34mПерезагрузка компьютера
-
+		\033[36m[98]-
 		\033[36m[99]-\033[33mНазад(Back)
 		\033[36m[0]-\033[33mВыход(Exit)
 		'''
@@ -1006,6 +1006,10 @@ def viruses():
 			k.close()
 		def back():
 			viruses()
+		def bat98():
+			print('\033[32mВот что найдено(Here are the results):')
+			os.chdir('batniki')
+			os.system('ls')
 		if bat ==1:
 			bat1()
 		elif bat==2:
@@ -1015,6 +1019,8 @@ def viruses():
 		elif bat ==0:
 			print("\033[32mПрощайте!(Goodbye!)")
 			raise SystemExit
+		elif bat==98:
+			bat98()
 		else:
 			print('\033[31mОшибка:не найдено(Error:not found)')
 			time.sleep(2)
