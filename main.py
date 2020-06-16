@@ -40,7 +40,7 @@ banner = """
                                       ..........          
                                    """        
 print(banner)
-sleep(4)
+sleep(8)
 clean()
 print('\033[32m')
 banner2 = """                                                                                                             
@@ -77,6 +77,6 @@ banner2 = """
                                       ..........             
                                    """        
 print(banner2)
-sleep(4)
+sleep(8)
 os.system('python zagruzka.py')
 os.system('python defwak.py')
