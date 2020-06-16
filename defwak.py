@@ -912,7 +912,7 @@ def DefSec6():
 		DefSec6()
 def upmenu():
 	print("\033[31m1-\033[32mTermux  \033[31m2-\033[32mLinux")
-	ue = int(input("\033[33mЧто у вас?(What do you have?):"))
+	ue = int(input("\033[33mЧто у вас?(What do you have?):\u001b[32m"))
 	if ue ==1:
 	    print('\033[32mБудет сделано(Will be done!)')
 	    time.sleep(2)
